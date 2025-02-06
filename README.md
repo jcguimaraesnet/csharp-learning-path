@@ -9,7 +9,7 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 ### Tópicos principais
 
 
-> [!NOTE]
+> [!IMPORTANT]
 > *Assuntos cobertos: hello world, visual studio, depuração, variáveis e tipos*
 
 1. [Download e instalação do Visual Studio (VS) Community](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio)
@@ -74,7 +74,7 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 ### Tópicos principais
 
 
-> [!NOTE]
+> [!IMPORTANT]
 > *Assuntos cobertos: conversões, if-else, switch, erros, operações aritméticas, datetime*
 
 1. [Definindo a cultura padrão de um aplicativo console](https://learn.microsoft.com/pt-pt/dotnet/fundamentals/runtime-libraries/system-globalization-cultureinfo#culture-and-application-domains)
@@ -145,7 +145,7 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 ### Tópicos principais
 
 
-> [!NOTE]
+> [!IMPORTANT]
 > *Assuntos cobertos: arrays, repetição, menu, enum*
 
 1. [Uso de matrizes (arrays)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/arrays#single-dimensional-arrays)
