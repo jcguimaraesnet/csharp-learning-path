@@ -6,63 +6,65 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 
 
 ## 📌 Learning Path 1.1
-### Tópicos principais: hello world, visual studio, depuração, variáveis e tipos
-
-1. [Download e instalação do Visual Studio (VS) Community](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio)
-2. [Desabilitar](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio) e [ocultar](https://learn.microsoft.com/pt-br/visualstudio/ide/visual-studio-github-copilot-install-and-states?view=vs-2022#hide-copilot-badge) o Github Copilot
-3. [Criar um novo projeto no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console)
-4. [Solution Explorer e estrutura do projeto (arquivos e pastas)](https://learn.microsoft.com/pt-br/visualstudio/ide/use-solution-explorer?view=vs-2022#solution-explorer-ui)
-5. [Classe Program](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/)
-6. [Método Main estático (ponto de entrada) de aplicações C#](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/main-command-line)
-7. [Saída de dados no console](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console?view=vs-2022)
-8. [Uso e definição de namespaces](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/namespaces)
-9. [Compilar e executar aplicativos no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/run-program?view=vs-2022#run-the-program)
-10. [Depuração com breakpoints no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)
-11. [Declaração de variáveis implicitamente e explicitamente tipadas (string, inteiro e double)](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables)
-12. [Tipo string, concatenação e interpolação](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/)
-13. [Tipos numéricos integrais (int)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
-14. [Tipos numéricos de ponto flutuante (float)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
-15. [Instruções de nível superior](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/top-level-statements)
+### Tópicos principais: 
+- ### Tópicos principais
+  ---
+  *Assuntos cobertos: hello world, visual studio, depuração, variáveis e tipos*
+  1. [Download e instalação do Visual Studio (VS) Community](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio)
+  2. [Desabilitar](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio) e [ocultar](https://learn.microsoft.com/pt-br/visualstudio/ide/visual-studio-github-copilot-install-and-states?view=vs-2022#hide-copilot-badge) o Github Copilot
+  3. [Criar um novo projeto no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console)
+  4. [Solution Explorer e estrutura do projeto (arquivos e pastas)](https://learn.microsoft.com/pt-br/visualstudio/ide/use-solution-explorer?view=vs-2022#solution-explorer-ui)
+  5. [Classe Program](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/)
+  6. [Método Main estático (ponto de entrada) de aplicações C#](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/main-command-line)
+  7. [Saída de dados no console](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console?view=vs-2022)
+  8. [Uso e definição de namespaces](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/namespaces)
+  9. [Compilar e executar aplicativos no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/run-program?view=vs-2022#run-the-program)
+  10. [Depuração com breakpoints no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)
+  11. [Declaração de variáveis implicitamente e explicitamente tipadas (string, inteiro e double)](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables)
+  12. [Tipo string, concatenação e interpolação](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/)
+  13. [Tipos numéricos integrais (int)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
+  14. [Tipos numéricos de ponto flutuante (float)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
+  15. [Instruções de nível superior](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/top-level-statements)
 
 - ### Para aprofundar
-    ---
-    - [Coding Convention](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-    - [Todos os tipos (internos) do C#](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types)
+  ---
+  - [Coding Convention](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+  - [Todos os tipos (internos) do C#](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types)
 
 - ### Exercícios
-    --- 
-    <details>
-    <summary>Exercício em aula</summary>
+  --- 
+  *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+  <details>
+  <summary>Exercício em aula</summary>
+  
+  1. Imprima no console a frase “Hello World”. 
+  2. Compile e execute.
+  3. Após, crie variáveis atribuindo um nome, uma idade e um salário. Imprima as variáveis no console.
+  4. Compile e execute.
+  5. Refaça o mesmo programa com instrução de nível superior
+  </details>
 
-    1. Imprima no console a frase “Hello World”. 
-    2. Compile e execute.
-    3. Após, crie variáveis atribuindo um nome, uma idade e um salário. Imprima as variáveis no console.
-    4. Compile e execute.
-    5. Refaça o mesmo programa com instrução de nível superior
-    </details>
-
-    <details>
-    <summary>Exercícios práticos</summary>
-    
-    - *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
-    - **Exercício prático 1**
-        1. Implemente um aplicativo console Hello World
-        2. Execute o aplicativo sem depuração
-    - **Exercício prático 2**
-        1. Execute linha a linha o aplicativo anterior
-        2. Antes de executar o comando de imprimir no console, altere o texto “Hello World” para conter o seu nome.
-        3. Continue a execução do programa e verifique a saída no console
-    - **Exercício prático 3**
-        1. Implemente um aplicativo console que imprima no console seu nome, idade e hobby
-        2. Crie variáveis para conter os seus dados
-        3. Crie um breakpoint na linha de código idade
-        4. Execute linha a linha o seu aplicativo
-        5. Altere o valor atribuído da variável idade (qualquer outro valor) em tempo de execução
-        6. Finalize a execução do aplicativo e verifique a saída no console
-    - **Exercício prático 4**
-        1. No aplicativo anterior, altere o método usado da classe console de WriteLine para Write.
-        2. Execute o aplicativo console e verifique a saída no console
-    </details>
+  <details>
+  <summary>Exercícios práticos</summary>
+  
+  - **Exercício prático 1**
+      1. Implemente um aplicativo console Hello World
+      2. Execute o aplicativo sem depuração
+  - **Exercício prático 2**
+      1. Execute linha a linha o aplicativo anterior
+      2. Antes de executar o comando de imprimir no console, altere o texto “Hello World” para conter o seu nome.
+      3. Continue a execução do programa e verifique a saída no console
+  - **Exercício prático 3**
+      1. Implemente um aplicativo console que imprima no console seu nome, idade e hobby
+      2. Crie variáveis para conter os seus dados
+      3. Crie um breakpoint na linha de código idade
+      4. Execute linha a linha o seu aplicativo
+      5. Altere o valor atribuído da variável idade (qualquer outro valor) em tempo de execução
+      6. Finalize a execução do aplicativo e verifique a saída no console
+  - **Exercício prático 4**
+      1. No aplicativo anterior, altere o método usado da classe console de WriteLine para Write.
+      2. Execute o aplicativo console e verifique a saída no console
+  </details>
 
 </br>
 
