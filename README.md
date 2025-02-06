@@ -7,11 +7,10 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 
 ## 📌 Learning Path 1.1
 - ### Tópicos principais
-  > [!NOTE]
-  > Useful information that users should know, even when skimming content.
-
-  - *Assuntos cobertos: hello world, visual studio, depuração, variáveis e tipos*
   ---
+
+> [!NOTE]
+> *Assuntos cobertos: hello world, visual studio, depuração, variáveis e tipos*
 
 1. [Download e instalação do Visual Studio (VS) Community](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio)
 2. [Desabilitar](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio) e [ocultar](https://learn.microsoft.com/pt-br/visualstudio/ide/visual-studio-github-copilot-install-and-states?view=vs-2022#hide-copilot-badge) o Github Copilot
