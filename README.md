@@ -71,7 +71,12 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 </br>
 
 ## 📌 Learning Path 1.2
-### Tópicos principais: conversões, if-else, switch, erros, operações aritméticas, datetime
+### Tópicos principais
+
+
+> [!NOTE]
+> *Assuntos cobertos: conversões, if-else, switch, erros, operações aritméticas, datetime*
+
 1. [Definindo a cultura padrão de um aplicativo console](https://learn.microsoft.com/pt-pt/dotnet/fundamentals/runtime-libraries/system-globalization-cultureinfo#culture-and-application-domains)
 2. [Entrada de dados](https://learn.microsoft.com/pt-br/dotnet/api/system.console.readline)
 3. [Conversões com classes auxiliares (classe Convert, Parse, TryParse)](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number)
@@ -85,59 +90,65 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 11. [Manipulando datas](https://learn.microsoft.com/pt-br/dotnet/standard/datetime/how-to-use-dateonly-timeonly)
 12. [Tratamento de erros com try-catch](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/)
 
-- ### Para aprofundar
-    ---
-    - [Todos operadores em C# (aritméticos, lógicos e comparação)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
-    - [Correspondência de padrões (técnica funcional)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/patterns)
+### Para aprofundar
+- [Todos operadores em C# (aritméticos, lógicos e comparação)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
+- [Correspondência de padrões (técnica funcional)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/patterns)
 
-- ### Exercícios
-    --- 
-    <details>
-    <summary>Exercício em aula</summary>
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
 
-    1. Implemente um programa de cadastro de funcionários de uma hamburgueria (apenas 1 funcionário)
-    2. Formulário de leitura de dados pessoais: nome, sobrenome e salário
-    3. Exiba o nome completo em caixa alta
-    4. Leia a quantidade de horas extras trabalhadas
-    5. Exiba o valor total de horas extras. Regra: Salario / 160 * 40% * horas extras
-    6. Compile e execute
-    7. Adicione a leitura da data de nascimento ao formulário
-    8. Imprima no console se a pessoa é menor aprendiz (menor que 18)
-    9. Compile e execute
-    10. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
-    11. Compile e execute
-    </details>
+<details>
+<summary>Exercício em aula</summary>
 
-    <details>
-    <summary>Exercícios práticos</summary>
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (apenas 1 funcionário)
+2. Formulário de leitura de dados pessoais: nome, sobrenome e salário
+3. Exiba o nome completo em caixa alta
+4. Leia a quantidade de horas extras trabalhadas
+5. Exiba o valor total de horas extras. Regra: Salario / 160 * 40% * horas extras
+6. Compile e execute
+7. Adicione a leitura da data de nascimento ao formulário
+8. Imprima no console se a pessoa é menor aprendiz (menor que 18)
+9. Compile e execute
+10. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
+11. Compile e execute
+</details>
 
-    - *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
-    - **Exercício 1**
-        1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
-        2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
-        3. Imprima duas opções de de produto da loja (ex: 1 - beef burguer e 2 - fish burguer)
-        4. Leia a opção de produto desejado pelo usuário
-        5. Leia a quantidade desejada, calcule e imprima o total do pedido
-        6. Compile e execute
-    - **Exercício 2**
-        1. Calcule o IMC de uma pessoa (peso / altura)
-        2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
-        3. Compile e execute
-    - **Exercício 3**
-        1. Calcule e imprima a média escolar de aluno com base em três notas (nome, nota1, nota2, nota3)
-        2. Informe a situação atual do aluno (reprovado < 5; aprovado ≥ 7; recuperação 5 ≥ e < 7)
-        3. Compile e execute
-    - **Exercício 4**
-        1. Conversor de temperatura de celsius para fahrenheit 
-        2. Leia temperatura em celsius e imprima a temperatura em fahrenheit
-        3. Compile e execute
-    </details>
+<details>
+<summary>Exercícios práticos</summary>
+
+- *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+- **Exercício prático 1**
+1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
+2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
+3. Imprima duas opções de de produto da loja (ex: 1 - beef burguer e 2 - fish burguer)
+4. Leia a opção de produto desejado pelo usuário
+5. Leia a quantidade desejada, calcule e imprima o total do pedido
+6. Compile e execute
+- **Exercício prático 2**
+1. Calcule o IMC de uma pessoa (peso / altura)
+2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
+3. Compile e execute
+- **Exercício prático 3**
+1. Calcule e imprima a média escolar de aluno com base em três notas (nome, nota1, nota2, nota3)
+2. Informe a situação atual do aluno (reprovado < 5; aprovado ≥ 7; recuperação 5 ≥ e < 7)
+3. Compile e execute
+- **Exercício prático 4**
+1. Conversor de temperatura de celsius para fahrenheit 
+2. Leia temperatura em celsius e imprima a temperatura em fahrenheit
+3. Compile e execute
+</details>
 
 
 </br>
 
 ## 📌 Learning Path 2.1
-### Tópicos principais: arrays, repetição, menu, enum
+### Tópicos principais
+
+
+> [!NOTE]
+> *Assuntos cobertos: arrays, repetição, menu, enum*
+
 1. [Uso de matrizes (arrays)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/arrays#single-dimensional-arrays)
 2. [Matrizes de tipo implícito](https://www.notion.so/csharp-course-outline-1836275169d480208413cfd2c6ea2b1c?pvs=21)
 3. [Instrução for](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement)
@@ -146,58 +157,57 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 6. [Instrução do..while](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-do-statement)
 7. [Enumeração](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/enum)
 
-- ### Para aprofundar
-    ---
-    - [Para aprofundar: Operador de intervalo para matrizes](https://learn.microsoft.com/pt-br/dotnet/csharp/tutorials/ranges-indexes)
-    - [Para aprofundar: Usando Enum como sinalizador de bits (múltiplos valores)](https://learn.microsoft.com/pt-br/dotnet/api/system.enum.hasflag?view=net-9.0#exemplos)
+### Para aprofundar
+- [Para aprofundar: Operador de intervalo para matrizes](https://learn.microsoft.com/pt-br/dotnet/csharp/tutorials/ranges-indexes)
+- [Para aprofundar: Usando Enum como sinalizador de bits (múltiplos valores)](https://learn.microsoft.com/pt-br/dotnet/api/system.enum.hasflag?view=net-9.0#exemplos)
 
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
 
+<details>
+<summary>Exercício em aula</summary>
 
-- ### Exercícios
-    --- 
-    <details>
-    <summary>Exercício em aula</summary>
+1. Defina um array de horas extras com 12 posições, itere o array e preencha com um valor aleatório (for)
+2. Imprima a soma de horas extras
+3. Compile e execute
+4. Defina um array com o nome dos dias da semana e imprima cada dia no console (foreach)
+5. Compile e execute
+6. Leia um numero inteiro e implemente uma contagem regressiva até zero (while)
+7. Imprima o número, decremente o número e aguarde 1 segundo
+8. Compile e execute
+9. Defina um enum com os dias da semana e imprima cada dia no console (enum)
+10. Compile e execute
+11. Implemente um programa de caixa registradora para pedidos de uma hamburgueria (do … while)
+12. Imprima um menu com as opções: beef burger e fish burger (com seus respectivos valores)
+13. Leia a quantidade de hamburgueres desejados, calcule e imprima o total do pedido
+14. Ofereça uma opção para reiniciar ou sair
+15. Compile e execute
+</details>
 
-    1. Defina um array de horas extras com 12 posições, itere o array e preencha com um valor aleatório (for)
-    2. Imprima a soma de horas extras
-    3. Compile e execute
-    4. Defina um array com o nome dos dias da semana e imprima cada dia no console (foreach)
-    5. Compile e execute
-    6. Leia um numero inteiro e implemente uma contagem regressiva até zero (while)
-    7. Imprima o número, decremente o número e aguarde 1 segundo
-    8. Compile e execute
-    9. Defina um enum com os dias da semana e imprima cada dia no console (enum)
-    10. Compile e execute
-    11. Implemente um programa de caixa registradora para pedidos de uma hamburgueria (do … while)
-    12. Imprima um menu com as opções: beef burger e fish burger (com seus respectivos valores)
-    13. Leia a quantidade de hamburgueres desejados, calcule e imprima o total do pedido
-    14. Ofereça uma opção para reiniciar ou sair
-    15. Compile e execute
-    </details>
+<details>
+<summary>Exercícios práticos</summary>
 
-    <details>
-    <summary>Exercícios práticos</summary>
-
-    - *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
-    - **Exercício 1**
-        1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
-        2. Imprima uma lista de menu com opções de produto da loja
-        3. Leia a opção de produto desejado pelo usuário
-        4. Leia a quantidade desejada, calcule e imprima o total do pedido
-        5. Realize um desconto de 50% no total calculado apenas para o quinto pedido do dia
-        6. Ofereça uma opção para reiniciar a caixa registradora e outra opção para sair
-        7. Compile e execute
-    - **Exercício 2**
-        1. Implemente um pequeno jogo para acertar cara ou coroa
-        2. Saia do programa somente quando o usuário acertar
-        3. Use enumeration no seu programa
-        4. Compile e execute
-    - **Exercício 3**
-        1. Defina um array de inteiro com 5 números aleatórios e fixos
-        2. Exiba o array na ordem inversa ao que foi definido
-        3. Compile e execute
-    - **Exercício 4**
-        1. Defina um array de float com 4 posições, leia 4 notas escolares, calcule a média, a maior e a menor nota 
-        2. Imprima a média a maior, a maior e a menor nota
-        3. Compile e execute
-    </details>
+- *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+- **Exercício prático 1**
+1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
+2. Imprima uma lista de menu com opções de produto da loja
+3. Leia a opção de produto desejado pelo usuário
+4. Leia a quantidade desejada, calcule e imprima o total do pedido
+5. Realize um desconto de 50% no total calculado apenas para o quinto pedido do dia
+6. Ofereça uma opção para reiniciar a caixa registradora e outra opção para sair
+7. Compile e execute
+- **Exercício 2**
+1. Implemente um pequeno jogo para acertar cara ou coroa
+2. Saia do programa somente quando o usuário acertar
+3. Use enumeration no seu programa
+4. Compile e execute
+- **Exercício 3**
+1. Defina um array de inteiro com 5 números aleatórios e fixos
+2. Exiba o array na ordem inversa ao que foi definido
+3. Compile e execute
+- **Exercício 4**
+1. Defina um array de float com 4 posições, leia 4 notas escolares, calcule a média, a maior e a menor nota 
+2. Imprima a média a maior, a maior e a menor nota
+3. Compile e execute
+</details>
