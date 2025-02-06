@@ -37,11 +37,12 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
   <details>
   <summary>Exercício em aula</summary>
   
-  1. Imprima no console a frase “Hello World”. 
-  2. Compile e execute.
-  3. Após, crie variáveis atribuindo um nome, uma idade e um salário. Imprima as variáveis no console.
-  4. Compile e execute.
-  5. Refaça o mesmo programa com instrução de nível superior
+  - **Exercício em aula 1**
+    1. Imprima no console a frase “Hello World”. 
+    2. Compile e execute.
+    3. Após, crie variáveis atribuindo um nome, uma idade e um salário. Imprima as variáveis no console.
+    4. Compile e execute.
+    5. Refaça o mesmo programa com instrução de nível superior
   </details>
 
   <details>
