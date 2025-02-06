@@ -107,8 +107,10 @@
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (apenas 1 funcionário)
 2. Formulário de leitura de dados pessoais: nome, sobrenome e salário
 3. Exiba o nome completo em caixa alta
-4. Leia a quantidade de horas extras trabalhadas
-5. Exiba o valor total de horas extras. Regra: Salario / 160 * 40% * horas extras
+4. Compile e execute
+5. Leia a quantidade de horas trabalhadas no mês (int)
+6. Calcule o valor hora do funcionário dividindo o salário (convertido para int) pelas horas trabalhadas no mês
+7. Caso necessário, capture as exceções que podem ocorrer neste cálculo
 6. Compile e execute
 7. Adicione a leitura da data de nascimento ao formulário
 8. Imprima no console se a pessoa é menor aprendiz (menor que 18)
