@@ -5,27 +5,24 @@ Este repositório contém uma proposta de trilha de aprendizado para a linguagem
 Essa proposta de aprendizado se destina inicialmente para alunos do Instituto Infnet, uma faculdade focada na área de TI com sede no Rio de Janeiro/Brasil, cujas disciplinas transcorrem em uma janela de espaço de nove semanas (ou dezoito aulas). Eu ficaria feliz se o conteúdo estruturado aqui neste repo for útil para professores e alunos de outras instituições e demais interessados no aprendizado dessa linguagem. Favorite este repositório para me deixar feliz.
 
 
-<details open>
-<summary>Curso C# - Parte 1.1 (hello world, visual studio, depuração, variáveis e tipos)</summary>
+## 📌 Learning Path 1.1
+### Tópicos principais: hello world, visual studio, depuração, variáveis e tipos
 
- 
-- ### Tópicos principais 
-    ---
-    1. [Download e instalação do Visual Studio (VS) Community](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio)
-    2. [Desabilitar](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio) e [ocultar](https://learn.microsoft.com/pt-br/visualstudio/ide/visual-studio-github-copilot-install-and-states?view=vs-2022#hide-copilot-badge) o Github Copilot
-    3. [Criar um novo projeto no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console)
-    4. [Solution Explorer e estrutura do projeto (arquivos e pastas)](https://learn.microsoft.com/pt-br/visualstudio/ide/use-solution-explorer?view=vs-2022#solution-explorer-ui)
-    5. [Classe Program](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/)
-    6. [Método Main estático (ponto de entrada) de aplicações C#](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/main-command-line)
-    7. [Saída de dados no console](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console?view=vs-2022)
-    8. [Uso e definição de namespaces](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/namespaces)
-    9. [Compilar e executar aplicativos no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/run-program?view=vs-2022#run-the-program)
-    10. [Depuração com breakpoints no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)
-    11. [Declaração de variáveis implicitamente e explicitamente tipadas (string, inteiro e double)](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables)
-    12. [Tipo string, concatenação e interpolação](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/)
-    13. [Tipos numéricos integrais (int)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
-    14. [Tipos numéricos de ponto flutuante (float)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
-    15. [Instruções de nível superior](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/top-level-statements)
+1. [Download e instalação do Visual Studio (VS) Community](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio)
+2. [Desabilitar](https://learn.microsoft.com/pt-br/visualstudio/install/install-visual-studio) e [ocultar](https://learn.microsoft.com/pt-br/visualstudio/ide/visual-studio-github-copilot-install-and-states?view=vs-2022#hide-copilot-badge) o Github Copilot
+3. [Criar um novo projeto no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console)
+4. [Solution Explorer e estrutura do projeto (arquivos e pastas)](https://learn.microsoft.com/pt-br/visualstudio/ide/use-solution-explorer?view=vs-2022#solution-explorer-ui)
+5. [Classe Program](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/)
+6. [Método Main estático (ponto de entrada) de aplicações C#](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/main-command-line)
+7. [Saída de dados no console](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console?view=vs-2022)
+8. [Uso e definição de namespaces](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/namespaces)
+9. [Compilar e executar aplicativos no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/run-program?view=vs-2022#run-the-program)
+10. [Depuração com breakpoints no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)
+11. [Declaração de variáveis implicitamente e explicitamente tipadas (string, inteiro e double)](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables)
+12. [Tipo string, concatenação e interpolação](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/)
+13. [Tipos numéricos integrais (int)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
+14. [Tipos numéricos de ponto flutuante (float)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
+15. [Instruções de nível superior](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/top-level-statements)
 
 - ### Para aprofundar
     ---
@@ -67,34 +64,27 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
         2. Execute o aplicativo console e verifique a saída no console
     </details>
 
-</details>
-
 </br>
 
-<details>
-<summary>Curso C# - Parte 1.2 (conversões, if-else, switch, erros, operações aritméticas, datetime)</summary>
-
-- ### Tópicos principais 
-    ---
-    1. [Definindo a cultura padrão de um aplicativo console](https://learn.microsoft.com/pt-pt/dotnet/fundamentals/runtime-libraries/system-globalization-cultureinfo#culture-and-application-domains)
-    2. [Entrada de dados](https://learn.microsoft.com/pt-br/dotnet/api/system.console.readline)
-    3. [Conversões com classes auxiliares (classe Convert, Parse, TryParse)](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number)
-    4. [Formatação de tipos numéricos](https://learn.microsoft.com/pt-br/dotnet/standard/base-types/standard-numeric-format-strings)
-    5. [Definindo uma constante](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/const)
-    6. [Instruções de seleção - if, if-else e switch](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements)
-    7. [Operador Ternário (?:)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator)
-    8. [Operadores aritméticos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators)
-    9. [Operadores de comparação](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/comparison-operators)
-    10. [Operadores lógicos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/boolean-logical-operators)
-    11. [Manipulando datas](https://learn.microsoft.com/pt-br/dotnet/standard/datetime/how-to-use-dateonly-timeonly)
-    12. [Tratamento de erros com try-catch](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/)
+## 📌 Learning Path 1.2
+### Tópicos principais: conversões, if-else, switch, erros, operações aritméticas, datetime
+1. [Definindo a cultura padrão de um aplicativo console](https://learn.microsoft.com/pt-pt/dotnet/fundamentals/runtime-libraries/system-globalization-cultureinfo#culture-and-application-domains)
+2. [Entrada de dados](https://learn.microsoft.com/pt-br/dotnet/api/system.console.readline)
+3. [Conversões com classes auxiliares (classe Convert, Parse, TryParse)](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number)
+4. [Formatação de tipos numéricos](https://learn.microsoft.com/pt-br/dotnet/standard/base-types/standard-numeric-format-strings)
+5. [Definindo uma constante](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/const)
+6. [Instruções de seleção - if, if-else e switch](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements)
+7. [Operador Ternário (?:)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator)
+8. [Operadores aritméticos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators)
+9. [Operadores de comparação](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/comparison-operators)
+10. [Operadores lógicos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/boolean-logical-operators)
+11. [Manipulando datas](https://learn.microsoft.com/pt-br/dotnet/standard/datetime/how-to-use-dateonly-timeonly)
+12. [Tratamento de erros com try-catch](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/)
 
 - ### Para aprofundar
     ---
     - [Todos operadores em C# (aritméticos, lógicos e comparação)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
     - [Correspondência de padrões (técnica funcional)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/patterns)
-
-
 
 - ### Exercícios
     --- 
@@ -139,24 +129,18 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
         3. Compile e execute
     </details>
 
-</details>
-
 
 </br>
 
-
-<details>
-<summary>Curso C# - Parte 2.1 (arrays, repetição, menu, enum)</summary>
-
-- ### Tópicos principais 
-    ---
-    1. [Uso de matrizes (arrays)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/arrays#single-dimensional-arrays)
-    2. [Matrizes de tipo implícito](https://www.notion.so/csharp-course-outline-1836275169d480208413cfd2c6ea2b1c?pvs=21)
-    3. [Instrução for](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement)
-    4. [Instrução foreach](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement)
-    5. [Instrução while](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement)
-    6. [Instrução do..while](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-do-statement)
-    7. [Enumeração](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/enum)
+## 📌 Learning Path 2.1
+### Tópicos principais: arrays, repetição, menu, enum
+1. [Uso de matrizes (arrays)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/arrays#single-dimensional-arrays)
+2. [Matrizes de tipo implícito](https://www.notion.so/csharp-course-outline-1836275169d480208413cfd2c6ea2b1c?pvs=21)
+3. [Instrução for](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement)
+4. [Instrução foreach](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement)
+5. [Instrução while](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement)
+6. [Instrução do..while](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/iteration-statements#the-do-statement)
+7. [Enumeração](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/enum)
 
 - ### Para aprofundar
     ---
@@ -213,7 +197,3 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
         2. Imprima a média a maior, a maior e a menor nota
         3. Compile e execute
     </details>
-
-</details>
-
-</details>
