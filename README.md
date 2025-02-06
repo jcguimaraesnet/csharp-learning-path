@@ -1,9 +1,12 @@
 # C# Learning Path
 
-Este repositório contém uma proposta de trilha de aprendizado para a linguagem C# em dezoito aulas, contendo links para a documentação da Microsoft e exercícios  práticos.
+ℹ️ Este repositório contém uma proposta de trilha de aprendizado para a linguagem C# em dezoito aulas, contendo links para a documentação da Microsoft e exercícios  práticos.
 
-Essa proposta de aprendizado se destina inicialmente para alunos do Instituto Infnet, uma faculdade focada na área de TI com sede no Rio de Janeiro/Brasil, cujas disciplinas transcorrem em uma janela de espaço de nove semanas (ou dezoito aulas). Eu ficaria feliz se o conteúdo estruturado aqui neste repo for útil para professores e alunos de outras instituições e demais interessados no aprendizado dessa linguagem. Favorite este repositório para me deixar feliz.
+🧑🏽‍🎓 Essa proposta de aprendizado se destina inicialmente para alunos do Instituto Infnet, uma faculdade focada na área de TI com sede no Rio de Janeiro/Brasil, cujas disciplinas transcorrem em uma janela de espaço de nove semanas (ou dezoito aulas). Eu ficaria feliz se o conteúdo estruturado aqui neste repo for útil para professores e alunos de outras instituições e demais interessados no aprendizado dessa linguagem. 
 
+⭐ Favorite este repositório para me deixar feliz.
+
+</br>
 
 ## 📌 Learning Path 1.1
 ### Tópicos principais
