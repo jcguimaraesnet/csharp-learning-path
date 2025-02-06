@@ -50,22 +50,22 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 <summary>Exercícios práticos</summary>
 
 - **Exercício prático 1**
-  1. Implemente um aplicativo console Hello World
-  2. Execute o aplicativo sem depuração
+1. Implemente um aplicativo console Hello World
+2. Execute o aplicativo sem depuração
 - **Exercício prático 2**
-  1. Execute linha a linha o aplicativo anterior
-  2. Antes de executar o comando de imprimir no console, altere o texto “Hello World” para conter o seu nome.
-  3. Continue a execução do programa e verifique a saída no console
+1. Execute linha a linha o aplicativo anterior
+2. Antes de executar o comando de imprimir no console, altere o texto “Hello World” para conter o seu nome.
+3. Continue a execução do programa e verifique a saída no console
 - **Exercício prático 3**
-  1. Implemente um aplicativo console que imprima no console seu nome, idade e hobby
-  2. Crie variáveis para conter os seus dados
-  3. Crie um breakpoint na linha de código idade
-  4. Execute linha a linha o seu aplicativo
-  5. Altere o valor atribuído da variável idade (qualquer outro valor) em tempo de execução
-  6. Finalize a execução do aplicativo e verifique a saída no console
+1. Implemente um aplicativo console que imprima no console seu nome, idade e hobby
+2. Crie variáveis para conter os seus dados
+3. Crie um breakpoint na linha de código idade
+4. Execute linha a linha o seu aplicativo
+5. Altere o valor atribuído da variável idade (qualquer outro valor) em tempo de execução
+6. Finalize a execução do aplicativo e verifique a saída no console
 - **Exercício prático 4**
-  1. No aplicativo anterior, altere o método usado da classe console de WriteLine para Write.
-  2. Execute o aplicativo console e verifique a saída no console
+1. No aplicativo anterior, altere o método usado da classe console de WriteLine para Write.
+2. Execute o aplicativo console e verifique a saída no console
 </details>
 
 </br>
