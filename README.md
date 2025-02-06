@@ -6,8 +6,8 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 
 
 ## 📌 Learning Path 1.1
-- ### Tópicos principais
-  ---
+### Tópicos principais
+
 
 > [!NOTE]
 > *Assuntos cobertos: hello world, visual studio, depuração, variáveis e tipos*
@@ -28,46 +28,46 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 14. [Tipos numéricos de ponto flutuante (float)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
 15. [Instruções de nível superior](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/top-level-statements)
 
-- ### Para aprofundar
-  ---
-    - [Coding Convention](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-    - [Todos os tipos (internos) do C#](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types)
+### Para aprofundar
+- [Coding Convention](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+- [Todos os tipos (internos) do C#](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types)
 
-- ### Exercícios
-  --- 
-  *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
-  <details>
-  <summary>Exercício em aula</summary>
+### Exercícios
+> [!NOTE]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
   
-  - **Exercício em aula 1**
-    1. Imprima no console a frase “Hello World”. 
-    2. Compile e execute.
-    3. Após, crie variáveis atribuindo um nome, uma idade e um salário. Imprima as variáveis no console.
-    4. Compile e execute.
-    5. Refaça o mesmo programa com instrução de nível superior
-  </details>
+<details>
+<summary>Exercício em aula</summary>
 
-  <details>
-  <summary>Exercícios práticos</summary>
-  
-  - **Exercício prático 1**
-      1. Implemente um aplicativo console Hello World
-      2. Execute o aplicativo sem depuração
-  - **Exercício prático 2**
-      1. Execute linha a linha o aplicativo anterior
-      2. Antes de executar o comando de imprimir no console, altere o texto “Hello World” para conter o seu nome.
-      3. Continue a execução do programa e verifique a saída no console
-  - **Exercício prático 3**
-      1. Implemente um aplicativo console que imprima no console seu nome, idade e hobby
-      2. Crie variáveis para conter os seus dados
-      3. Crie um breakpoint na linha de código idade
-      4. Execute linha a linha o seu aplicativo
-      5. Altere o valor atribuído da variável idade (qualquer outro valor) em tempo de execução
-      6. Finalize a execução do aplicativo e verifique a saída no console
-  - **Exercício prático 4**
-      1. No aplicativo anterior, altere o método usado da classe console de WriteLine para Write.
-      2. Execute o aplicativo console e verifique a saída no console
-  </details>
+- **Exercício em aula 1**
+1. Imprima no console a frase “Hello World”. 
+2. Compile e execute.
+3. Após, crie variáveis atribuindo um nome, uma idade e um salário. Imprima as variáveis no console.
+4. Compile e execute.
+5. Refaça o mesmo programa com instrução de nível superior
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **Exercício prático 1**
+    1. Implemente um aplicativo console Hello World
+    2. Execute o aplicativo sem depuração
+- **Exercício prático 2**
+    1. Execute linha a linha o aplicativo anterior
+    2. Antes de executar o comando de imprimir no console, altere o texto “Hello World” para conter o seu nome.
+    3. Continue a execução do programa e verifique a saída no console
+- **Exercício prático 3**
+    1. Implemente um aplicativo console que imprima no console seu nome, idade e hobby
+    2. Crie variáveis para conter os seus dados
+    3. Crie um breakpoint na linha de código idade
+    4. Execute linha a linha o seu aplicativo
+    5. Altere o valor atribuído da variável idade (qualquer outro valor) em tempo de execução
+    6. Finalize a execução do aplicativo e verifique a saída no console
+- **Exercício prático 4**
+    1. No aplicativo anterior, altere o método usado da classe console de WriteLine para Write.
+    2. Execute o aplicativo console e verifique a saída no console
+</details>
 
 </br>
 
