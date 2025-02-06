@@ -160,8 +160,8 @@
 7. [Enumeração](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/enum)
 
 ### Para aprofundar
-- [Para aprofundar: Operador de intervalo para matrizes](https://learn.microsoft.com/pt-br/dotnet/csharp/tutorials/ranges-indexes)
-- [Para aprofundar: Usando Enum como sinalizador de bits (múltiplos valores)](https://learn.microsoft.com/pt-br/dotnet/api/system.enum.hasflag?view=net-9.0#exemplos)
+- [Operador de intervalo para matrizes](https://learn.microsoft.com/pt-br/dotnet/csharp/tutorials/ranges-indexes)
+- [Usando Enum como sinalizador de bits (múltiplos valores)](https://learn.microsoft.com/pt-br/dotnet/api/system.enum.hasflag?view=net-9.0#exemplos)
 
 ### Exercícios
 > [!CAUTION]
