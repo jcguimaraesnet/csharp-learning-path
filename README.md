@@ -117,7 +117,6 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 <details>
 <summary>Exercícios práticos</summary>
 
-- *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
 - **Exercício prático 1**
 1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
 2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
@@ -188,7 +187,6 @@ Essa proposta de aprendizado se destina inicialmente para alunos do Instituto In
 <details>
 <summary>Exercícios práticos</summary>
 
-- *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
 - **Exercício prático 1**
 1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
 2. Imprima uma lista de menu com opções de produto da loja
