@@ -355,3 +355,140 @@
 3. Compile e execute
 </details>
 
+</br>
+
+## 📌 Learning Path 3.2
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Orientação à objetos (encapsulamento)*
+
+1. [POO - Encapsulamento 1](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop)
+2. [POO - Encapsulamento 2 (deviq)](https://deviq.com/principles/encapsulation)
+3. [Padrão Modelo de domínio](https://martinfowler.com/eaaCatalog/domainModel.html)
+4. [Padrão (ou antipadrão) Modelo de domínio anêmico](https://martinfowler.com/bliki/AnemicDomainModel.html)
+
+
+### Para aprofundar
+- [Princípios populares de desenvolvimento - Regra do escoteiro](https://deviq.com/principles/boy-scout-rule)
+- [Princípios populares de desenvolvimento - KISS (Keep It Simple, Stupid)](https://deviq.com/principles/keep-it-simple)
+- [Princípios populares de desenvolvimento - YAGNI (You Ain't Gonna Need It - Você não vai precisar)](https://deviq.com/principles/yagni)
+- [Princípios populares de desenvolvimento - DRY (Don't Repeat Yourself)](https://deviq.com/principles/dont-repeat-yourself)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de conta bancária com operações de depósito e saque
+2. Simule algumas operações de depósito e saque
+3. Ao final exiba o valor do saldo da conta bancária
+4. Certifique-se de manter o saldo inacessível para alterações
+5. Compile e execute
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **Exercício prático 1**
+1. Implemente um programa de cadastro de um funcionário de uma loja (tema do aluno)
+2. Apresente um menu com três opções: adicionar funcionário, aumentar e exibir salario, e sair
+3. Opção 1: ler os dados do funcionário: nome, cargo e salário
+4. Opção 2: Aumentar o salário (regra → aplicar 20% de aumento para gerente e 10% para os demais)
+5. Opção 3: Exibir salário
+6. Opção 4: Sair do programa
+7. Compile e execute
+- **Exercício prático 2**
+1. Simule operações de transações com um cartão de crédito (duas ou mais transações de compra)
+2. Antes de simular as operações, defina um limite inicial de R$ 5000,00
+3. Imprima na tela o limite atual
+4. Compile e execute
+- **Exercício prático 3**
+1. Simule um sistema de fidelidade de pontos (duas ou mais transações)
+2. Antes de simular as operações, defina uma pontuação inicial de 50 pontos
+3. Cada transação deve ser convertida em dólar. Cada dólar gera 1 ponto.
+4. Simule uma operação de resgate de 10 pontos.
+5. Imprima na tela a pontuação atual
+6. Compile e execute
+- **Exercício prático 4**
+1. Simule um carrinho de compras de um ecommerce
+2. Simule duas ou mais operações de “adicionar itens ao carrinho” informando tipo e qtde do produto
+3. Crie uma propriedade que contenha o total do pedido
+4. Imprima na tela o valor total do pedido
+5. Compile e execute
+</details>
+
+</br>
+
+## 📌 Learning Path 4.1
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Orientação à objetos (herança)*
+
+1. [O que é uma herança - relacionamento do tipo “é um” (garçon é um funcionário)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
+2. [Conceito de classe base e classe derivada](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
+3. [Object e herança implícita para classes](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#implicit-inheritance)
+4. [Palavra-chave base para herança explícita de construtor (não existe herança implícita de construtor)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/base)
+
+
+### Para aprofundar
+- [Palavra-chave sealed para impedir herança](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/sealed)
+- [Operador “=>”  para “arrow function” ou definição de corpo de métodos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/lambda-operator#expression-body-definition)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de publicações de uma biblioteca
+2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
+3. Titulo, ano publicação e editora são informações comuns a todas as publicações
+4. Crie um método que imprima todos os dados comuns de qualquer tipo de publicação
+5. O livro possui informação adicional de autor e ISBN
+6. A revista possui informação adicional de numero edição e ISSN
+7. O jornal possui informação adicional de data edição e cidade
+8. Crie as três publicações atribuindo valores aleatórios (use herança de construtor)
+9. Crie um método para cada tipo de publicação para imprimir todos os seus dados (Ex: ExibirDadosLivro)
+10. Exiba todos os dados de cada uma das três publicações (método anterior)
+11. Compile e execute
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **Exercício prático 1**
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
+2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
+3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
+6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
+7. Crie os três funcionários atribuindo valores aleatórios (use herança de construtor)
+8. Exiba os dados comuns dos três funcionários
+9. Compile e execute
+- **Exercício prático 2**
+1. Evolua o exercício anterior com os próximos passos
+2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários
+4. Compile e execute
+- **Exercício prático 3**
+1. Evolua o exercício anterior com os próximos passos
+2. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
+3. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
+4. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
+5. Exiba o salario total mensal de cada um dos três funcionários (salario base + adicional)
+6. Compile e execute
+- **Exercício prático 4**
+1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
+2. Use a criatividade para personalizar o seu cadastro
+3. Compile e execute
+</details>
