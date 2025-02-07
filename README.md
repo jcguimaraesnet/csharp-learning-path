@@ -536,7 +536,7 @@
 8. A revista possui informações adicionais de numero edição e ISSN
 9. O jornal possui informações adicionais de data edição e cidade
 10. Crie as três publicações solicitando leitura dos dados no console 
-11. Sobrescreva o método de imprimir da classe base para imprimir também as informações adicionais de cada tipo de publicação.
+11. Sobrescreva o método de imprimir da classe base para exibir também as informações adicionais de cada tipo de publicação.
 12. Compile e execute
 13. Experimente usar o método ToString (ao invés do método Imprimir) para exibir os dados da publicação no console
 14. Compile e execute
@@ -575,6 +575,82 @@
 3. Compile e execute
 </details>
 
+
+</br>
+
+## 📌 Learning Path 5.1
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Orientação à objetos (abstração)*
+
+1. [O que é abstração](https://pt.wikipedia.org/wiki/Abstra%C3%A7%C3%A3o_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))
+2. [Abstract para classe](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members#abstract-classes-and-class-members)
+3. [Abstract para métodos e membros de uma classe](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/abstract)
+
+
+### Para aprofundar
+- [Princípios SOLID com exemplos em C#](https://github.com/richielybmp/solid-design-principles-in-c-sharp)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de publicações de uma biblioteca
+2. Crie um menu com três opções de cadastro (livro, revista e jornal)
+3. Crie também uma opção de menu para exibir todas as publicações
+4. Crie também uma opção de menu para sair
+5. Titulo, ano publicação e editora são informações básicas a todas as publicações
+6. Defina a classe base como abstrata
+7. Crie um método abstrato para imprimir informações adicionais
+8. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
+9. O livro possui informações adicionais de autor e ISBN
+10. A revista possui informações adicionais de numero edição e ISSN
+11. O jornal possui informações adicionais de data edição e cidade
+12. Crie as três publicações solicitando leitura dos dados no console 
+13. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
+14. Compile e execute
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **Exercício prático 1**
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
+2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
+3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
+6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
+7. Crie um menu com opções para cadastrar os três tipos de funcionário
+8. Crie também um menu para exibir os dados de todos os funcionários
+9. Crie também um menu para sair
+10. Use o conceito de abstração em classe e método neste exercício
+11. Compile e execute
+- **Exercício prático 2**
+1. Evolua o exercício anterior com os próximos passos
+2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários
+4. Compile e execute
+- **Exercício prático 3**
+1. Evolua o exercício anterior com os próximos passos
+2. Defina na classe base um método abstrato para calcular salario adicional
+3. Invoke o método abstrato na classe base para exibir o salário total (base + adicional)
+4. Implemente um método de salário adicional para cada funcionário
+5. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
+6. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
+7. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
+8. Compile e execute
+- **Exercício prático 4**
+1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
+2. Use a criatividade para personalizar o seu cadastro
+3. Compile e execute
+</details>
 
 
 
