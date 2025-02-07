@@ -8,7 +8,7 @@
 
 If you're using this repository for your learning, samples, workshop, or your project, please give a star. Thanks :+1:
 
-Se você estiver usando este repositório para seu aprendizado, amostras, workshop ou seu projeto, por favor, dê uma estrela. Obrigado `:+1:`
+Se você estiver usando este repositório para seu aprendizado, amostras, workshop ou seu projeto, por favor, dê uma estrela. Obrigado :+1:
 
 
 ⭐ Favorite este repositório para me deixar feliz.
