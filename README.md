@@ -111,12 +111,12 @@
 5. Leia a quantidade de horas trabalhadas no mês (int)
 6. Calcule o valor hora do funcionário dividindo o salário (convertido para int) pelas horas trabalhadas no mês
 7. Caso necessário, capture as exceções que podem ocorrer neste cálculo
-6. Compile e execute
-7. Adicione a leitura da data de nascimento ao formulário
-8. Imprima no console se a pessoa é menor aprendiz (menor que 18)
-9. Compile e execute
-10. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
+8. Compile e execute
+9. Adicione a leitura da data de nascimento ao formulário
+10. Imprima no console se a pessoa é menor aprendiz (menor que 18)
 11. Compile e execute
+12. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
+13. Compile e execute
 </details>
 
 <details>
