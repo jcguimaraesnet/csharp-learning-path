@@ -4,6 +4,13 @@
 
 🧑🏽‍🎓 Essa proposta de aprendizado se destina inicialmente para alunos do Instituto Infnet, uma faculdade focada na área de TI com sede no Rio de Janeiro/Brasil, cujas disciplinas transcorrem em uma janela de espaço de nove semanas (ou dezoito aulas). Eu ficaria feliz se o conteúdo estruturado aqui neste repo for útil para professores e alunos de outras instituições e demais interessados no aprendizado dessa linguagem. 
 
+# ⭐ Dê uma estrela
+
+If you're using this repository for your learning, samples, workshop, or your project, please give a star. Thanks :+1:
+
+Se você estiver usando este repositório para seu aprendizado, amostras, workshop ou seu projeto, por favor, dê uma estrela. Obrigado `:+1:`
+
+
 ⭐ Favorite este repositório para me deixar feliz.
 
 </br>
@@ -22,7 +29,7 @@
 5. [Classe Program](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/)
 6. [Método Main estático (ponto de entrada) de aplicações C#](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/main-command-line)
 7. [Saída de dados no console](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console?view=vs-2022)
-8. [Uso e definição de namespaces](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/namespaces)
+8. [Uso e definição de namespaces para organização](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/namespaces)
 9. [Compilar e executar aplicativos no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/run-program?view=vs-2022#run-the-program)
 10. [Depuração com breakpoints no VS](https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)
 11. [Declaração de variáveis implicitamente e explicitamente tipadas (string, inteiro e double)](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables)
@@ -52,21 +59,21 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um aplicativo console Hello World
 2. Execute o aplicativo sem depuração
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Execute linha a linha o aplicativo anterior
 2. Antes de executar o comando de imprimir no console, altere o texto “Hello World” para conter o seu nome.
 3. Continue a execução do programa e verifique a saída no console
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Implemente um aplicativo console que imprima no console seu nome, idade e hobby
 2. Crie variáveis para conter os seus dados
 3. Crie um breakpoint na linha de código idade
 4. Execute linha a linha o seu aplicativo
 5. Altere o valor atribuído da variável idade (qualquer outro valor) em tempo de execução
 6. Finalize a execução do aplicativo e verifique a saída no console
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. No aplicativo anterior, altere o método usado da classe console de WriteLine para Write.
 2. Execute o aplicativo console e verifique a saída no console
 </details>
@@ -122,22 +129,22 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
 2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
 3. Imprima duas opções de de produto da loja (ex: 1 - beef burguer e 2 - fish burguer)
 4. Leia a opção de produto desejado pelo usuário
 5. Leia a quantidade desejada, calcule e imprima o total do pedido
 6. Compile e execute
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Calcule o IMC de uma pessoa (peso / altura)
 2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
 3. Compile e execute
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Calcule e imprima a média escolar de aluno com base em três notas (nome, nota1, nota2, nota3)
 2. Informe a situação atual do aluno (reprovado < 5; aprovado ≥ 7; recuperação 5 ≥ e < 7)
 3. Compile e execute
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. Conversor de temperatura de celsius para fahrenheit 
 2. Leia temperatura em celsius e imprima a temperatura em fahrenheit
 3. Compile e execute
@@ -192,7 +199,7 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
 2. Imprima uma lista de menu com opções de produto da loja
 3. Leia a opção de produto desejado pelo usuário
@@ -200,16 +207,16 @@
 5. Realize um desconto de 50% no total calculado apenas para o quinto pedido do dia
 6. Ofereça uma opção para reiniciar a caixa registradora e outra opção para sair
 7. Compile e execute
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Implemente um pequeno jogo para acertar cara ou coroa
 2. Saia do programa somente quando o usuário acertar
 3. Use enumeration no seu programa
 4. Compile e execute
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Defina um array de inteiro com 5 números aleatórios e fixos
 2. Exiba o array na ordem inversa ao que foi definido
 3. Compile e execute
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. Defina um array de float com 4 posições, leia 4 notas escolares, calcule a média, a maior e a menor nota 
 2. Imprima a média a maior, a maior e a menor nota
 3. Compile e execute
@@ -267,7 +274,7 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
 2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
 3. Imprima uma lista de menu com duas opções de produto da loja (exemplo: beef burger e fish burguer)
@@ -275,15 +282,15 @@
 5. Leia a quantidade desejada, calcule e imprima o total do pedido
 6. Calcule um desconto de 10% para total de pedido acima de 200 reais
 7. Compile e execute
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Calcule o IMC de uma pessoa (peso / altura)
 2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
 3. Compile e execute
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Calcule e imprima a média escolar de aluno com base em três notas (nome, nota1, nota2, nota3)
 2. Informe a situação atual do aluno (reprovado < 5; aprovado ≥ 7; recuperação 5 ≥ e < 7)
 3. Compile e execute
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. Conversor de temperatura de celsius para fahrenheit 
 2. Leia temperatura em celsius e imprima a temperatura em fahrenheit
 3. Compile e execute
@@ -334,7 +341,7 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
 2. Apresente um menu com duas opções de produto e seus valores (exemplo: beef burger e fish burguer)
 3. Leia a opção de produto desejado pelo usuário
@@ -342,15 +349,15 @@
 5. Ofereça também um item de menu para calcular o valor total de todos os pedidos
 6. E ofereça um outro item de menu para sair do programa
 7. Compile e execute
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Crie uma coleção com cinco nome de frutas (nomes fixos no programa)
 2. Filtre e imprima os nomes de frutas que começam com a letra “b” ou “B”
 3. Compile e execute
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Crie uma coleção que contenha frutas do tipo crítica e não cítricas (fixos no programa)
 2. Filtre e imprima apenas as frutas do tipo cítricas
 3. Compile e execute
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. Crie uma coleção que contenha 10 números inteiros (fixos no programa)
 2. Imprima somente os números ímpares
 3. Compile e execute
@@ -395,7 +402,7 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um programa de cadastro de um funcionário de uma loja (tema do aluno)
 2. Apresente um menu com três opções: adicionar funcionário, aumentar e exibir salario, e sair
 3. Opção 1: ler os dados do funcionário: nome, cargo e salário
@@ -403,19 +410,19 @@
 5. Opção 3: Exibir salário
 6. Opção 4: Sair do programa
 7. Compile e execute
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Simule operações de transações com um cartão de crédito (duas ou mais transações de compra)
 2. Antes de simular as operações, defina um limite inicial de R$ 5000,00
 3. Imprima na tela o limite atual
 4. Compile e execute
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Simule um sistema de fidelidade de pontos (duas ou mais transações)
 2. Antes de simular as operações, defina uma pontuação inicial de 50 pontos
 3. Cada transação deve ser convertida em dólar. Cada dólar gera 1 ponto.
 4. Simule uma operação de resgate de 10 pontos.
 5. Imprima na tela a pontuação atual
 6. Compile e execute
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. Simule um carrinho de compras de um ecommerce
 2. Simule duas ou mais operações de “adicionar itens ao carrinho” informando tipo e qtde do produto
 3. Crie uma propriedade que contenha o total do pedido
@@ -469,7 +476,7 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
@@ -479,19 +486,19 @@
 7. Crie os três funcionários atribuindo valores aleatórios (use herança de construtor)
 8. Exiba os dados comuns dos três funcionários
 9. Compile e execute
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Evolua o exercício anterior com os próximos passos
 2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
 3. Exiba o salário base de cada um dos três funcionários
 4. Compile e execute
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
 2. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
 3. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
 4. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
 5. Exiba o salario total mensal de cada um dos três funcionários (salario base + adicional)
 6. Compile e execute
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
 3. Compile e execute
@@ -546,7 +553,7 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
@@ -557,19 +564,19 @@
 8. Crie também um menu para exibir os dados de todos os funcionários
 9. Crie também um menu para sair
 10. Compile e execute
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Evolua o exercício anterior com os próximos passos
 2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
 3. Exiba o salário base de cada um dos três funcionários
 4. Compile e execute
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
 2. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
 3. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
 4. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
 5. Exiba o salario total mensal (base + adicional) dos funcionários cadastrados
 6. Compile e execute
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
 3. Compile e execute
@@ -620,7 +627,7 @@
 <details>
 <summary>Exercícios práticos</summary>
 
-- **Exercício prático 1**
+- **`Exercício prático 1`**
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
@@ -632,12 +639,12 @@
 9. Crie também um menu para sair
 10. Use o conceito de abstração em classe e método neste exercício
 11. Compile e execute
-- **Exercício prático 2**
+- **`Exercício prático 2`**
 1. Evolua o exercício anterior com os próximos passos
 2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
 3. Exiba o salário base de cada um dos três funcionários
 4. Compile e execute
-- **Exercício prático 3**
+- **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
 2. Defina na classe base um método abstrato para calcular salario adicional
 3. Invoke o método abstrato na classe base para exibir o salário total (base + adicional)
@@ -646,12 +653,87 @@
 6. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
 7. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
 8. Compile e execute
-- **Exercício prático 4**
+- **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
 3. Compile e execute
 </details>
 
+
+</br>
+
+## 📌 Learning Path 5.2
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Orientação à objetos (interface)*
+
+1. [O que é uma interface](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/interface)
+2. 
+
+
+### Para aprofundar
+- [Implementação padrão em interfaces](https://learn.microsoft.com/pt-br/dotnet/csharp/advanced-topics/interface-implementation/default-interface-methods-versions)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de publicações de uma biblioteca
+2. Crie um menu com três opções de cadastro (livro, revista e jornal)
+3. Crie também uma opção de menu para exibir todas as publicações
+4. Crie também uma opção de menu para sair
+5. Titulo, ano publicação e editora são informações básicas a todas as publicações
+6. Defina a classe base como abstrata
+7. Crie um método abstrato para imprimir informações adicionais
+8. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
+9. O livro possui informações adicionais de autor e ISBN
+10. A revista possui informações adicionais de numero edição e ISSN
+11. O jornal possui informações adicionais de data edição e cidade
+12. Crie as três publicações solicitando leitura dos dados no console 
+13. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
+14. Compile e execute
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **`Exercício prático 1`**
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
+2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
+3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
+6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
+7. Crie um menu com opções para cadastrar os três tipos de funcionário
+8. Crie também um menu para exibir os dados de todos os funcionários
+9. Crie também um menu para sair
+10. Use o conceito de abstração em classe e método neste exercício
+11. Compile e execute
+- **`Exercício prático 2`**
+1. Evolua o exercício anterior com os próximos passos
+2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários
+4. Compile e execute
+- **`Exercício prático 3`**
+1. Evolua o exercício anterior com os próximos passos
+2. Defina na classe base um método abstrato para calcular salario adicional
+3. Invoke o método abstrato na classe base para exibir o salário total (base + adicional)
+4. Implemente um método de salário adicional para cada funcionário
+5. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
+6. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
+7. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
+8. Compile e execute
+- **`Exercício prático 4`**
+1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
+2. Use a criatividade para personalizar o seu cadastro
+3. Compile e execute
+</details>
 
 
 <!-- 
