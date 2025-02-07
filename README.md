@@ -200,17 +200,158 @@
 5. Realize um desconto de 50% no total calculado apenas para o quinto pedido do dia
 6. Ofereça uma opção para reiniciar a caixa registradora e outra opção para sair
 7. Compile e execute
-- **Exercício 2**
+- **Exercício prático 2**
 1. Implemente um pequeno jogo para acertar cara ou coroa
 2. Saia do programa somente quando o usuário acertar
 3. Use enumeration no seu programa
 4. Compile e execute
-- **Exercício 3**
+- **Exercício prático 3**
 1. Defina um array de inteiro com 5 números aleatórios e fixos
 2. Exiba o array na ordem inversa ao que foi definido
 3. Compile e execute
-- **Exercício 4**
+- **Exercício prático 4**
 1. Defina um array de float com 4 posições, leia 4 notas escolares, calcule a média, a maior e a menor nota 
 2. Imprima a média a maior, a maior e a menor nota
 3. Compile e execute
 </details>
+
+
+</br>
+
+## 📌 Learning Path 2.2
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: orientação a objetos (introdução)*
+
+1. [Adicionando um pacote do nuget: Colorful.Console](https://github.com/tomakita/Colorful.Console?tab=readme-ov-file#convert-text-to-ascii-art-using-a-default-font)
+2. [Classe - definição de um tipo](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/classes)
+3. [Objeto - instância de tipos](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/objects)
+4. [Níveis de acessibilidade](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/accessibility-levels)
+5. [Método](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/methods)
+6. [Campo](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/fields)
+7. [Propriedades auto implementadas](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/properties)
+8. [Construtor](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/constructors)
+9. [Lançando exceções para valores inválidos (string.IsNullOrWhiteSpace e throw new)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/creating-and-throwing-exceptions)
+
+
+### Para aprofundar
+- [Exceções mais comuns (tanto para capturar, quanto para utilizar)](https://learn.microsoft.com/pt-br/dotnet/standard/exceptions/#common-exceptions)
+- [Classes parciais](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)
+- [Inicializando objetos (4 formas diferentes)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/classes#constructors-and-initialization)
+- [Struct para pequenos tipos de dados com pouco comportamento (imutáveis)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/struct)
+- [Record para tipos focados em armazenamento de dados sem comportamento](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/records)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (apenas um funcionário)
+2. Formulário de leitura de dados pessoais: nome, sobrenome e salário
+3. Exiba o nome completo em caixa alta
+4. Exiba o valor da hora extra. Regra: Salario / 160 * 40%
+5. Compile e execute
+6. Adicione a leitura da data de nascimento ao formulário
+7. Imprima no console se a pessoa é menor aprendiz (menor que 18)
+8. Compile e execute
+9. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
+10. Compile e execute
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **Exercício prático 1**
+1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
+2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
+3. Imprima uma lista de menu com duas opções de produto da loja (exemplo: beef burger e fish burguer)
+4. Leia a opção de produto desejado pelo usuário
+5. Leia a quantidade desejada, calcule e imprima o total do pedido
+6. Calcule um desconto de 10% para total de pedido acima de 200 reais
+7. Compile e execute
+- **Exercício prático 2**
+1. Calcule o IMC de uma pessoa (peso / altura)
+2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
+3. Compile e execute
+- **Exercício prático 3**
+1. Calcule e imprima a média escolar de aluno com base em três notas (nome, nota1, nota2, nota3)
+2. Informe a situação atual do aluno (reprovado < 5; aprovado ≥ 7; recuperação 5 ≥ e < 7)
+3. Compile e execute
+- **Exercício prático 4**
+1. Conversor de temperatura de celsius para fahrenheit 
+2. Leia temperatura em celsius e imprima a temperatura em fahrenheit
+3. Compile e execute
+</details>
+
+
+</br>
+
+## 📌 Learning Path 3.1
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: coleções, LINQ*
+
+1. [Coleções indexáveis: List<T>](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/collections#indexable-collections)
+2. [Coleções de pares chave/valor: Dictionary<TKey, TValue>](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/collections#keyvalue-pair-collections)
+3. [Quando usar coleções genéricas](https://learn.microsoft.com/pt-br/dotnet/standard/collections/when-to-use-generic-collections)
+4. [LINQ (Consulta Integrada à Linguagem) e consultas mais comuns](https://learn.microsoft.com/pt-br/dotnet/csharp/linq/get-started/introduction-to-linq-queries#classification-table)
+5. [LINQ: Sintaxe de query  (declarativa)](https://learn.microsoft.com/pt-br/dotnet/csharp/linq/get-started/query-expression-basics#starting-a-query-expression)
+6. [LINQ: Sintaxe de método (imperativa)](https://learn.microsoft.com/pt-br/dotnet/csharp/linq/standard-query-operators/filtering-data)
+
+
+### Para aprofundar
+- [Visão geral sobre coleções do .NET](https://learn.microsoft.com/pt-br/dotnet/standard/collections/)
+- [Introdução a consultas LINQ](https://learn.microsoft.com/pt-br/dotnet/csharp/linq/get-started/introduction-to-linq-queries)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (vários funcionários)
+2. Apresente um menu com três opções: adicionar funcionário, calcular folha e sair
+3. Opção 1: ler os dados do funcionário: nome e salário
+4. Opção 2: Calcular o total, mínimo, máximo e média dos salários
+5. Opção 3: Sair do programa
+6. Compile e execute
+7. Adicione o campo identidade (ou cpf) do funcionário e use um dicionário para evitar duplicidade
+8. Compile e execute
+9. Crie um menu adicional para pesquisar funcionários com salários maiores que R$5.000,00
+10. Compile e execute
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **Exercício prático 1**
+1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
+2. Apresente um menu com duas opções de produto e seus valores (exemplo: beef burger e fish burguer)
+3. Leia a opção de produto desejado pelo usuário
+4. Leia a quantidade desejada e apresente o menu novamente
+5. Ofereça também um item de menu para calcular o valor total de todos os pedidos
+6. E ofereça um outro item de menu para sair do programa
+7. Compile e execute
+- **Exercício prático 2**
+1. Crie uma coleção com cinco nome de frutas (nomes fixos no programa)
+2. Filtre e imprima os nomes de frutas que começam com a letra “b” ou “B”
+3. Compile e execute
+- **Exercício prático 3**
+1. Crie uma coleção que contenha frutas do tipo crítica e não cítricas (fixos no programa)
+2. Filtre e imprima apenas as frutas do tipo cítricas
+3. Compile e execute
+- **Exercício prático 4**
+1. Crie uma coleção que contenha 10 números inteiros (fixos no programa)
+2. Imprima somente os números ímpares
+3. Compile e execute
+</details>
+
