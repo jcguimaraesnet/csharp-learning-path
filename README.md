@@ -224,6 +224,7 @@
 
 > [!IMPORTANT]
 > *Assuntos cobertos: orientação a objetos (introdução)*
+> </br> **Leitura do TP1**
 
 1. [Adicionando um pacote do nuget: Colorful.Console](https://github.com/tomakita/Colorful.Console?tab=readme-ov-file#convert-text-to-ascii-art-using-a-default-font)
 2. [Classe - definição de um tipo](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/classes)
@@ -431,15 +432,16 @@
 > [!IMPORTANT]
 > *Assuntos cobertos: Orientação à objetos (herança)*
 
-1. [O que é uma herança - relacionamento do tipo “é um” (garçon é um funcionário)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
+1. [O que é uma herança - relacionamento do tipo “é um” (ex: garçon "é um" funcionário)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
 2. [Conceito de classe base e classe derivada](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
-3. [Object e herança implícita para classes](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#implicit-inheritance)
-4. [Palavra-chave base para herança explícita de construtor (não existe herança implícita de construtor)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/base)
+3. [Palavra-chave base para herança explícita de construtor (não existe herança implícita de construtor)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/base)
+4. [Palavra-chave sealed para impedir herança](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/sealed)
+5. [Sobrecarregando métodos](https://learn.microsoft.com/pt-br/dotnet/standard/design-guidelines/member-overloading)
 
 
 ### Para aprofundar
-- [Palavra-chave sealed para impedir herança](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/sealed)
-- [Operador “=>”  para “arrow function” ou definição de corpo de métodos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/lambda-operator#expression-body-definition)
+- [Ferramenta para modelar diagrama de classes (Draw.io)](https://app.diagrams.net)
+- [Ferramenta para modelar diagrama de classes (Lucidchart)](https://lucid.app/lucidchart/706e4961-b5e1-4f87-b000-3037506405bb/edit?invitationId=inv_559bf1e0-50db-4c2c-9e5f-0482cc331425&page=azYL66cQbwSa#)
 
 
 ### Exercícios
@@ -451,15 +453,17 @@
 
 1. Implemente um programa de cadastro de publicações de uma biblioteca
 2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
-3. Titulo, ano publicação e editora são informações comuns a todas as publicações
-4. Crie um método que imprima todos os dados comuns de qualquer tipo de publicação
-5. O livro possui informação adicional de autor e ISBN
-6. A revista possui informação adicional de numero edição e ISSN
-7. O jornal possui informação adicional de data edição e cidade
+3. Titulo, ano publicação e editora são informações básicas a todas as publicações
+4. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação
+5. O livro possui informações adicionais de autor e ISBN
+6. A revista possui informações adicionais de numero edição e ISSN
+7. O jornal possui informações adicionais de data edição e cidade
 8. Crie as três publicações atribuindo valores aleatórios (use herança de construtor)
-9. Crie um método para cada tipo de publicação para imprimir todos os seus dados (Ex: ExibirDadosLivro)
-10. Exiba todos os dados de cada uma das três publicações (método anterior)
-11. Compile e execute
+9. Crie um método para cada tipo de publicação para imprimir as informações básicas e adicionais (Ex: ExibirDadosLivro). Execute cada método.
+10. Compile e execute
+11. Crie um método (sobrecarga) para cada tipo de publicação para imprimir as informações segmentadas em duas partes ("Informações básicas:" e "Informações adicionais:"). Execute cada método.
+12. Compile e execute
+
 </details>
 
 <details>
@@ -492,3 +496,91 @@
 2. Use a criatividade para personalizar o seu cadastro
 3. Compile e execute
 </details>
+
+</br>
+
+## 📌 Learning Path 4.2
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Orientação à objetos (polimorfismo)*
+> </br> **Leitura do TP2**
+
+1. [O que é polimorfismo](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/polymorphism)
+2. [Permitindo a sobrescrita de membros na classe base (virtual)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/virtual)
+3. [Sobrescrevendo membros (da classe base) na classe derivada (override)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/override)
+4. [Object e herança implícita para classes](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#implicit-inheritance)
+5. [Usando método ToString em classes herdadas implicitamente](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/how-to-override-the-tostring-method)
+
+
+### Para aprofundar
+- [Clean Code para C# (thangchung)](https://github.com/thangchung/clean-code-dotnet)
+
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de publicações de uma biblioteca
+2. Crie um menu com três opções de cadastro (livro, revista e jornal)
+3. Crie também uma opção de menu para exibir todas as publicações
+4. Crie também uma opção de menu para sair
+5. Titulo, ano publicação e editora são informações básicas a todas as publicações
+6. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação
+7. O livro possui informações adicionais de autor e ISBN
+8. A revista possui informações adicionais de numero edição e ISSN
+9. O jornal possui informações adicionais de data edição e cidade
+10. Crie as três publicações solicitando leitura dos dados no console 
+11. Sobrescreva o método de imprimir da classe base para imprimir também as informações adicionais de cada tipo de publicação.
+12. Compile e execute
+13. Experimente usar o método ToString (ao invés do método Imprimir) para exibir os dados da publicação no console
+14. Compile e execute
+
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **Exercício prático 1**
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
+2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
+3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
+6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
+7. Crie um menu com opções para cadastrar os três tipos de funcionário
+8. Crie também um menu para exibir os dados de todos os funcionários
+9. Crie também um menu para sair
+10. Compile e execute
+- **Exercício prático 2**
+1. Evolua o exercício anterior com os próximos passos
+2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários
+4. Compile e execute
+- **Exercício prático 3**
+1. Evolua o exercício anterior com os próximos passos
+2. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
+3. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
+4. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
+5. Exiba o salario total mensal (base + adicional) dos funcionários cadastrados
+6. Compile e execute
+- **Exercício prático 4**
+1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
+2. Use a criatividade para personalizar o seu cadastro
+3. Compile e execute
+</details>
+
+
+
+
+<!-- 
+
+### Extras
+- [Operador “=>”  para “arrow function” ou definição de corpo de métodos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/lambda-operator#expression-body-definition)
+
+-->
