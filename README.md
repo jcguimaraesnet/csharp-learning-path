@@ -736,6 +736,88 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </details>
 
 
+</br>
+
+## 📌 Learning Path 6.1
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Orientação à objetos (relacionamento entre objetos)*
+
+1. [Agregação - Agrega, existem separadamente, relacionamento "tem um"](https://learning.oreilly.com/library/view/hands-on-object-oriented-programming/9781788296229/a68cdc1a-4eb8-4ce7-b689-70e915ea5abd.xhtml)
+2. [Composição - Compõe, dependem um do outro (gerencia ciclo de vida), relacionamento "parte de"](https://learning.oreilly.com/library/view/hands-on-object-oriented-programming/9781788296229/3b1f6c0e-8884-448d-acf2-3a5546acd286.xhtml)
+3. [Prefira composição em vez de herança](https://pt.stackoverflow.com/questions/11378/%C3%89-correto-dar-maior-prefer%C3%AAncia-a-composi%C3%A7%C3%A3o-do-que-heran%C3%A7a)
+
+
+### Para aprofundar
+- [POO e os tipos de associação entre objetos](https://www.macoratti.net/20/09/c_tipassoc1.htm)
+- [DDD - Catálogo de padrões para domínio complexo](https://github.com/Sairyss/domain-driven-hexagon)
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de publicações de uma biblioteca
+2. Crie um menu com três opções de cadastro (livro, revista e jornal)
+3. Crie também uma opção de menu para exibir todas as publicações
+4. Crie também uma opção de menu para sair
+5. Titulo, ano publicação e editora são informações básicas a todas as publicações
+6. Defina a classe base como abstrata
+7. Crie um método abstrato para imprimir informações adicionais
+8. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
+9. O livro possui informações adicionais de autor e ISBN
+10. A revista possui informações adicionais de numero edição e ISSN
+11. O jornal possui informações adicionais de data edição e cidade
+12. Crie as três publicações solicitando leitura dos dados no console 
+13. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
+14. Compile e execute
+15. `Crie uma nova classe Biblioteca e uma agregação com publicação`
+16. `Refatore o menu de listar todas as publicações`
+17. `Faça outros ajustes caso necessário`
+18. `Compile e execute`
+19. `Crie uma nova classe Secao (Titulo, Resumo) como composição de Publicação`
+20. `Exiba uma opção de menu para listar todas as seções de uma publicação`
+21. `Compile e execute`
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **`Exercício prático 1`**
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
+2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
+3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
+6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
+7. Crie um menu com opções para cadastrar os três tipos de funcionário
+8. Crie também um menu para exibir os dados de todos os funcionários
+9. Crie também um menu para sair
+10. Use o conceito de abstração em classe e método neste exercício
+11. Compile e execute
+- **`Exercício prático 2`**
+1. Evolua o exercício anterior com os próximos passos
+2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários
+4. Compile e execute
+- **`Exercício prático 3`**
+1. `Evolua o exercício anterior com os próximos passos`
+2. `Crie uma opção para adicionar dependente (composição) a cada funcionário com os dados e data nascimento`
+3. `Ofereça um auxílio dependente aos funcionários, no valor de 500 reais para cada dependente`
+4. `Exiba o valor do salário total somado com o auxílio dependente`
+5. `Crie uma nova classe para gerenciar os funcionários (agregação)`
+6. `Refatore os menus para interagir com o objeto dessa nova classe`
+7. `Compile e execute`
+- **`Exercício prático 4`**
+1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
+2. Use a criatividade para personalizar o seu cadastro
+3. Compile e execute
+</details>
+
 <!-- 
 
 ### Extras
