@@ -667,10 +667,13 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 > *Assuntos cobertos: Orientação à objetos (interface)*
 
 1. [O que é uma interface](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/interface)
-2. 
+2. [Interface Segregation Principle (ISP)](https://deviq.com/principles/interface-segregation)
+3. [Exemplo de uso de interface com ISP - relacionamento do tipo "faz algo" (ex: garçom pode fechar pedido)](https://github.com/richielybmp/solid-design-principles-in-c-sharp/tree/master/ISP.InterfaceSegregationPrinciple)
+4. [Usando o tipo Type para filtrar (LINQ OfType, LINQ Where, GetType, typeof)](https://learn.microsoft.com/pt-br/dotnet/api/system.linq.enumerable.oftype)
 
 
 ### Para aprofundar
+- [Princípios SOLID com exemplos C#](https://github.com/richielybmp/solid-design-principles-in-c-sharp)
 - [Implementação padrão em interfaces](https://learn.microsoft.com/pt-br/dotnet/csharp/advanced-topics/interface-implementation/default-interface-methods-versions)
 
 
@@ -695,6 +698,10 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 12. Crie as três publicações solicitando leitura dos dados no console 
 13. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
 14. Compile e execute
+15. `Crie uma opção de menu para exibir todas as publicações emprestáveis (somente para Livro e Revista)`
+16. `Crie uma interface IEmprestavel e adicione capacidades para emprestar, devolver e verificar disponibilidade`
+17. `Conclua a implementação usando interface`
+18. `Compile e execute`
 </details>
 
 <details>
@@ -719,13 +726,9 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 4. Compile e execute
 - **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
-2. Defina na classe base um método abstrato para calcular salario adicional
-3. Invoke o método abstrato na classe base para exibir o salário total (base + adicional)
-4. Implemente um método de salário adicional para cada funcionário
-5. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
-6. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
-7. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
-8. Compile e execute
+2. `Crie uma opção de menu para acrescentar o dissidio ao valor hora, adicionando mais 10% a todos os funcionários elegíveis (somente supervisor e caixa)`
+3. `Crie uma interface IDissidioElegivel e adicione a capacidade de CalcularDissidio`
+4. `Compile e execute`
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
