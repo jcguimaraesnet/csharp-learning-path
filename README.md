@@ -978,6 +978,81 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </details>
 
 
+</br>
+
+
+## 📌 Learning Path 7.2
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Delegate, Action e Func*
+
+1. [Delegates - Referência (variável, parâmetro, etc) a um método](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/delegates/using-delegates)
+2. [Action - Delegate padrão de 0 a 16 parâmetros](https://learn.microsoft.com/pt-br/dotnet/api/system.action-1)
+3. [Func - Delegate padrão de 0 a 16 parâmetros com retorno](https://learn.microsoft.com/pt-br/dotnet/api/system.action-1)
+
+### Para aprofundar
+- [Algoritmos implementados em C#](https://github.com/TheAlgorithms/C-Sharp)
+- [C# Algoritmos](https://github.com/aalhour/C-Sharp-Algorithms)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de publicações de uma biblioteca
+2. Crie um menu com três opções de cadastro (livro, revista e jornal)
+3. Crie também uma opção de menu para sair
+4. Titulo, ano publicação e editora são informações básicas a todas as publicações
+5. Defina a classe base como abstrata
+6. Crie um método abstrato para imprimir informações adicionais
+7. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
+8. O livro possui informações adicionais de autor e ISBN
+9. A revista possui informações adicionais de numero edição e ISSN
+10. O jornal possui informações adicionais de data edição e cidade
+11. Crie as três publicações solicitando leitura dos dados no console 
+12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
+13. Compile e execute
+14. `Crie um menu de opção para exibir relatório com todos os dados (básicos e adicionais) no console`
+15. `Crie um menu de opção para gravar relatório com todos os dados (básicos e adicionais) em arquivo`
+16. `Use um único método Imprimir para atender os dois menus anteriores. Use delegate`
+17. `Compile e execute`
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **`Exercício prático 1`**
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
+2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
+3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
+6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
+7. Crie um menu com opções para cadastrar os três tipos de funcionário
+8. Crie também um menu para sair
+9. Compile e execute
+- **`Exercício prático 2`**
+1. Evolua o exercício anterior com os próximos passos
+2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários
+4. Compile e execute
+- **`Exercício prático 3`**
+1. `Evolua o exercício anterior com os próximos passos`
+2. `Crie um menu de opção para exibir relatório com todos os dados em console`
+3. `Crie um menu de opção para gravar relatório com todos os dados em arquivo (txt)`
+4. `Use um único método Imprimir para atender os dois menus anteriores. Use delegate`
+5. `Compile e execute`
+- **`Exercício prático 4`**
+1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
+2. Use a criatividade para personalizar o seu cadastro
+3. Compile e execute
+</details>
+
 <!-- 
 
 ### Extras
