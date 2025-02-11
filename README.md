@@ -819,7 +819,6 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 3. Compile e execute
 </details>
 
-
 </br>
 
 ## 📌 Learning Path 6.2
@@ -892,6 +891,85 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 2. `Crie uma opção para gerar um relatório com os dados de todos os funcionários em arquivo (txt)`
 3. `Crie uma opção para ler o relatório (txt) com os dados de todos os funcionários`
 4. `Use stream (fluxo) para gravar e ler os dados`
+5. `Compile e execute`
+- **`Exercício prático 4`**
+1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
+2. Use a criatividade para personalizar o seu cadastro
+3. Compile e execute
+</details>
+
+
+</br>
+
+
+## 📌 Learning Path 7.1
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Leitura e escrita em arquivos (ReadAllLines, WriteAllLines, string.Split)*
+
+1. [Escrita de array de strings em arquivo - File.WriteAllLines](https://learn.microsoft.com/pt-br/dotnet/api/system.io.file.writealllines)
+2. [Leitura de arquivo para array de strings - File.ReadAllLines](https://learn.microsoft.com/pt-br/dotnet/api/system.io.file.readalllines)
+3. [Como separar strings em array usando Split](https://learn.microsoft.com/pt-br/dotnet/csharp/how-to/parse-strings-using-split#stringsplit-examples)
+
+
+### Para aprofundar
+- [C# Language Roadmap](https://github.com/gridlocdev/csharp-learning-roadmap)
+- [.NET Developer Roadmap](https://github.com/phongnguyend/.net-developer-roadmap)
+- [.NET Awesome (Libs & Tools)](https://github.com/quozd/awesome-dotnet)
+- [.NET Core Awesome (Libs & Tools)](https://github.com/thangchung/awesome-dotnet-core)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de publicações de uma biblioteca
+2. Crie um menu com três opções de cadastro (livro, revista e jornal)
+3. Crie também uma opção de menu para sair
+4. Titulo, ano publicação e editora são informações básicas a todas as publicações
+5. Defina a classe base como abstrata
+6. Crie um método abstrato para imprimir informações adicionais
+7. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
+8. O livro possui informações adicionais de autor e ISBN
+9. A revista possui informações adicionais de numero edição e ISSN
+10. O jornal possui informações adicionais de data edição e cidade
+11. Crie as três publicações solicitando leitura dos dados no console 
+12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
+13. Compile e execute
+14. `Ao sair do programa, grave os dados de todas as publicações de forma estruturada em um arquivo - use o método ToString`
+15. `Ao inicializar o programa, antes de exibir o menu, carregue os dados (a partir de arquivo) de todas as publicações em uma lista`
+16. `Crie uma opção de menu para exibir os dados básicos e adicionais de todas as publicações`
+17. `Compile e execute`
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **`Exercício prático 1`**
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
+2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
+3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
+6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
+7. Crie um menu com opções para cadastrar os três tipos de funcionário
+8. Crie também um menu para sair
+9. Compile e execute
+- **`Exercício prático 2`**
+1. Evolua o exercício anterior com os próximos passos
+2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários
+4. Compile e execute
+- **`Exercício prático 3`**
+1. `Evolua o exercício anterior com os próximos passos`
+2. `Ao sair do programa, grave os dados de forma estrutura de todos os funcionários em arquivo (txt)`
+3. `Ao inicializar o programa, antes de exibir o menu, carregue os dados de todos os funcionários`
+4. `Crie uma opção de menu para exibir todos os dados dos funcionários no console`
 5. `Compile e execute`
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
