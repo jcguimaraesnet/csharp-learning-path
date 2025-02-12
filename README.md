@@ -1226,7 +1226,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </br>
 </br>
 
-## :hammer_and_wrench: Packages para usar em consoles
+## :hammer_and_wrench: Packages para usar em console
 - [Colorful.Console](https://github.com/tomakita/Colorful.Console)
 - [ConsoleTables](https://github.com/khalidabuhakmeh/ConsoleTables)
 - [ConsoleTableExt](https://github.com/minhhungit/ConsoleTableExt)
