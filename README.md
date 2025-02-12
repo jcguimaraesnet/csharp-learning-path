@@ -90,12 +90,11 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 4. [Formatação de tipos numéricos](https://learn.microsoft.com/pt-br/dotnet/standard/base-types/standard-numeric-format-strings)
 5. [Definindo uma constante](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/const)
 6. [Instruções de seleção - if, if-else e switch](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements)
-7. [Operador Ternário (?:)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator)
-8. [Operadores aritméticos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators)
-9. [Operadores de comparação](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/comparison-operators)
-10. [Operadores lógicos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/boolean-logical-operators)
-11. [Manipulando datas](https://learn.microsoft.com/pt-br/dotnet/standard/datetime/how-to-use-dateonly-timeonly)
-12. [Tratamento de erros com try-catch](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/)
+7. [Operadores aritméticos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators)
+8. [Operadores de comparação](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/comparison-operators)
+9. [Operadores lógicos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/boolean-logical-operators)
+10. [Manipulando datas](https://learn.microsoft.com/pt-br/dotnet/standard/datetime/how-to-use-dateonly-timeonly)
+11. [Tratamento de erros com try-catch](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/)
 
 ### Para aprofundar
 - [Todos operadores em C# (aritméticos, lógicos e comparação)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
@@ -1145,7 +1144,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 > [!IMPORTANT]
-> *Assuntos cobertos: C# avançado (tipos anuláveis, sobrecarga (overloading), métodos de extensão, parâmetros opcionais e nomeados, arrow function, required, init, readonly)
+> *Assuntos cobertos: C# avançado (tipos anuláveis, sobrecarga (overloading), métodos de extensão, parâmetros opcionais e nomeados, arrow function, required, init, readonly, operador ternário)
 > </br> **Leitura do AT**
 
 1. [Tipos de referência anuláveis](https://learn.microsoft.com/pt-br/dotnet/csharp/nullable-references)
@@ -1158,6 +1157,8 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 8. [Acessador init para propriedade verificável e imutável (propriedade continua opcional)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/readonly#readonly-field-example)
 9. [Propriedade required como obrigatória no construtor ou inicialização do objeto](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/required)
 10. [Campos readonly como obrigatório no construtor ou declaração](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/readonly#readonly-field-example)
+11. [Operador Ternário (?:)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator)
+
 
 ### Para aprofundar
 - [Clean architecture dotnet](https://github.com/thangchung/clean-architecture-dotnet)
