@@ -94,7 +94,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 8. [Operadores de comparação](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/comparison-operators)
 9. [Operadores lógicos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/boolean-logical-operators)
 10. [Manipulando datas](https://learn.microsoft.com/pt-br/dotnet/standard/datetime/how-to-use-dateonly-timeonly)
-11. [Tratamento de erros com try-catch](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/)
+
 
 ### Para aprofundar
 - [Todos operadores em C# (aritméticos, lógicos e comparação)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
@@ -112,14 +112,13 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 3. Exiba o nome completo em caixa alta
 4. Compile e execute
 5. Leia a quantidade de horas trabalhadas no mês (int)
-6. Calcule o valor hora do funcionário dividindo o salário (convertido para int) pelas horas trabalhadas no mês
-7. Caso necessário, capture as exceções que podem ocorrer neste cálculo
-8. Compile e execute
-9. Adicione a leitura da data de nascimento ao formulário
-10. Imprima no console se a pessoa é menor aprendiz (menor que 18)
-11. Compile e execute
-12. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
-13. Compile e execute
+6. Calcule o valor hora do funcionário dividindo o salário pelas horas trabalhadas no mês
+7. Compile e execute
+8. Adicione a leitura da data de nascimento ao formulário
+9. Imprima no console se a pessoa é menor aprendiz (menor que 18)
+10. Compile e execute
+11. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
+12. Compile e execute
 </details>
 
 <details>
@@ -238,6 +237,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 7. [Propriedades auto implementadas](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/properties)
 8. [Construtor](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/constructors)
 9. [Lançando exceções para valores inválidos (string.IsNullOrWhiteSpace e throw new)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/creating-and-throwing-exceptions)
+10. [Tratamento de erros com try-catch](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/)
 
 
 ### Para aprofundar
@@ -257,14 +257,16 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (apenas um funcionário)
 2. Formulário de leitura de dados pessoais: nome, sobrenome e salário
-3. Exiba o nome completo em caixa alta
-4. Exiba o valor da hora extra. Regra: Salario / 160 * 40%
-5. Compile e execute
-6. Adicione a leitura da data de nascimento ao formulário
-7. Imprima no console se a pessoa é menor aprendiz (menor que 18)
-8. Compile e execute
-9. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
+3. Aceite apenas salário maior que zero
+4. Capture as exceções que podem ocorrer, exiba mensagem de erro, encerre ou reinicie o programa
+5. Exiba o nome completo em caixa alta
+6. Exiba o valor da hora extra. Regra: Salario / 160 * 40%
+7. Compile e execute
+8. Adicione a leitura da data de nascimento ao formulário
+9. Imprima no console se a pessoa é menor aprendiz (menor que 18)
 10. Compile e execute
+11. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
+12. Compile e execute
 </details>
 
 <details>
@@ -276,8 +278,10 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 3. Imprima uma lista de menu com duas opções de produto da loja (exemplo: beef burger e fish burguer)
 4. Leia a opção de produto desejado pelo usuário
 5. Leia a quantidade desejada, calcule e imprima o total do pedido
-6. Calcule um desconto de 10% para total de pedido acima de 200 reais
-7. Compile e execute
+6. Aceite apenas quantidade maior que zero
+7. Capture as exceções que podem ocorrer, exiba mensagem de erro, encerre ou reinicie o programa
+8. Calcule um desconto de 10% para total de pedido acima de 200 reais
+9. Compile e execute
 - **`Exercício prático 2`**
 1. Calcule o IMC de uma pessoa (peso / altura)
 2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
