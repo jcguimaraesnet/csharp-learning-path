@@ -1233,7 +1233,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 - [Shellprogressbar](https://github.com/Mpdreamz/shellprogressbar)
 
 
-## :mage: Perfis para seguir (posts/newsletter .NET)
+## :mage: Perfis para seguir (post/newsletter .NET)
 - [https://www.linkedin.com/in/milan-jovanovic](https://www.linkedin.com/in/milan-jovanovic/) (.NET - +200k)
 - [https://www.linkedin.com/in/djokic-stefan](https://www.linkedin.com/in/djokic-stefan/) (.NET +90k)
 - [https://www.linkedin.com/in/davidcallan](https://www.linkedin.com/in/davidcallan/) (.NET +60k)
@@ -1241,7 +1241,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 - [https://www.linkedin.com/in/davitshergilashvili](https://www.linkedin.com/in/davitshergilashvili/) (Architecture +50k)
 
 
-## :link: Perfis para seguir (posts/newsletter System Design)
+## :link: Perfis para seguir (post/newsletter System Design)
 - [https://www.linkedin.com/in/alexxubyte](https://www.linkedin.com/in/alexxubyte/) (System Design +800k)
 - [https://www.linkedin.com/in/arslanahmad](https://www.linkedin.com/in/arslanahmad) (System Design +150k)
 - [https://www.linkedin.com/in/ashishps1](https://www.linkedin.com/in/ashishps1/) (System Design +55k)
