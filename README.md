@@ -227,7 +227,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 > [!IMPORTANT]
-> *Assuntos cobertos: orientação a objetos (introdução)*
+> *Assuntos cobertos: Programação orientada a objetos (introdução)*
 > </br> **Leitura do TP1**
 
 1. [Adicionando um pacote do nuget: Colorful.Console](https://github.com/tomakita/Colorful.Console?tab=readme-ov-file#convert-text-to-ascii-art-using-a-default-font)
@@ -368,7 +368,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 > [!IMPORTANT]
-> *Assuntos cobertos: Orientação à objetos (encapsulamento)*
+> *Assuntos cobertos: Programação orientada a objetos (encapsulamento)*
 
 1. [POO - Encapsulamento 1](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop)
 2. [POO - Encapsulamento 2 (deviq)](https://deviq.com/principles/encapsulation)
@@ -435,7 +435,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 > [!IMPORTANT]
-> *Assuntos cobertos: Orientação à objetos (herança)*
+> *Assuntos cobertos: Programação orientada a objetos (herança)*
 
 1. [O que é uma herança - relacionamento do tipo “é um” (ex: garçon "é um" funcionário)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
 2. [Conceito de classe base e classe derivada](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
@@ -509,7 +509,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 > [!IMPORTANT]
-> *Assuntos cobertos: Orientação à objetos (polimorfismo)*
+> *Assuntos cobertos: Programação orientada a objetos (polimorfismo)*
 > </br> **Leitura do TP2**
 
 1. [O que é polimorfismo](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/polymorphism)
@@ -589,7 +589,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 > [!IMPORTANT]
-> *Assuntos cobertos: Orientação à objetos (abstração)*
+> *Assuntos cobertos: Programação orientada a objetos (abstração)*
 
 1. [O que é abstração](https://pt.wikipedia.org/wiki/Abstra%C3%A7%C3%A3o_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))
 2. [Abstract para classe](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members#abstract-classes-and-class-members)
@@ -667,7 +667,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 > [!IMPORTANT]
-> *Assuntos cobertos: Orientação à objetos (interface)*
+> *Assuntos cobertos: Programação orientada a objetos (interface)*
 
 1. [O que é uma interface](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/interface)
 2. [Interface Segregation Principle (ISP)](https://deviq.com/principles/interface-segregation)
@@ -746,7 +746,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 > [!IMPORTANT]
-> *Assuntos cobertos: Orientação à objetos (relacionamento entre objetos)*
+> *Assuntos cobertos: Programação orientada a objetos (relacionamento entre objetos)*
 
 1. [Agregação - Agrega, existem separadamente, relacionamento "tem um"](https://learning.oreilly.com/library/view/hands-on-object-oriented-programming/9781788296229/a68cdc1a-4eb8-4ce7-b689-70e915ea5abd.xhtml)
 2. [Composição - Compõe, dependem um do outro (gerencia ciclo de vida), relacionamento "parte de"](https://learning.oreilly.com/library/view/hands-on-object-oriented-programming/9781788296229/3b1f6c0e-8884-448d-acf2-3a5546acd286.xhtml)
