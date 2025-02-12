@@ -466,7 +466,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 8. Crie as três publicações atribuindo valores aleatórios (use herança de construtor)
 9. Crie um método para cada tipo de publicação para imprimir as informações básicas e adicionais (Ex: ExibirDadosLivro). Execute cada método.
 10. Compile e execute
-11. Crie um método (sobrecarga) para cada tipo de publicação para imprimir as informações segmentadas em duas partes ("Informações básicas:" e "Informações adicionais:"). Execute cada método.
+11. Crie um método (sobreescrita - override) para cada tipo de publicação para imprimir as informações segmentadas em duas partes ("Informações básicas:" e "Informações adicionais:"). Execute cada método.
 12. Compile e execute
 
 </details>
@@ -521,7 +521,8 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 ### Para aprofundar
 - [Clean Code para C# (thangchung)](https://github.com/thangchung/clean-code-dotnet)
-
+- [Exemplo de modelagens de objetos/classes para problemas reais](https://github.com/ashishps1/awesome-low-level-design?tab=readme-ov-file#-low-level-design-interview-problems)
+- [Exemplos de projetos reais completos](https://github.com/thangchung/awesome-dotnet-core?tab=readme-ov-file#sample-projects)
 
 
 ### Exercícios
@@ -596,7 +597,8 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 ### Para aprofundar
-- [Princípios SOLID com exemplos em C#](https://github.com/richielybmp/solid-design-principles-in-c-sharp)
+- [.NET Awesome (Libs & Tools)](https://github.com/quozd/awesome-dotnet)
+- [.NET Core Awesome (Libs & Tools)](https://github.com/thangchung/awesome-dotnet-core)
 
 
 ### Exercícios
@@ -754,6 +756,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Para aprofundar
 - [POO e os tipos de associação entre objetos](https://www.macoratti.net/20/09/c_tipassoc1.htm)
 - [DDD - Catálogo de padrões para domínio complexo](https://github.com/Sairyss/domain-driven-hexagon)
+- [DDD - Microserviços orientado à DDD](https://learn.microsoft.com/pt-br/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
 
 ### Exercícios
 > [!CAUTION]
@@ -916,9 +919,8 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 ### Para aprofundar
 - [C# Language Roadmap](https://github.com/gridlocdev/csharp-learning-roadmap)
-- [.NET Developer Roadmap](https://github.com/phongnguyend/.net-developer-roadmap)
-- [.NET Awesome (Libs & Tools)](https://github.com/quozd/awesome-dotnet)
-- [.NET Core Awesome (Libs & Tools)](https://github.com/thangchung/awesome-dotnet-core)
+- [.NET Developer Roadmap (por phongnguyend)](https://github.com/phongnguyend/.net-developer-roadmap)
+- [.NET Developer Roadmap (por Milan Milanović)](https://github.com/milanm/DotNet-Developer-Roadmap)
 
 
 ### Exercícios
@@ -1069,9 +1071,11 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 3. [Acionar eventos de classe base na classe derivada](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/events/how-to-raise-base-class-events-in-derived-classes#example)
 
 ### Para aprofundar
-- [Clean Code para C# (thangchung)](https://github.com/thangchung/clean-code-dotnet)
 - [Design Patterns com exemplos em C# 1 (DotNetTutorials)](https://dotnettutorials.net/course/dot-net-design-patterns/)
 - [Design Patterns com exemplos em C# 2 (nemanharogico)](https://github.com/nemanjarogic/DesignPatternsLibrary)
+- [Melhores práticas para Backend](https://github.com/Sairyss/backend-best-practices)
+- [Padrões para System Design](https://github.com/Sairyss/system-design-patterns)
+- [System Design Resources Awesome](https://github.com/ashishps1/awesome-system-design-resources)
 
 
 ### Exercícios
@@ -1133,9 +1137,111 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </details>
 
 
-<!--
+</br>
 
-### Extras
-- [Operador “=>”  para “arrow function” ou definição de corpo de métodos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/lambda-operator#expression-body-definition)
 
--->
+## 📌 Learning Path 8.2
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: C# avançado (tipos anuláveis, sobrecarga (overloading), métodos de extensão, parâmetros opcionais e nomeados, arrow function, required, init, readonly)
+> </br> **Leitura do AT**
+
+1. [Tipos de referência anuláveis](https://learn.microsoft.com/pt-br/dotnet/csharp/nullable-references)
+2. [Parâmetros nomeados](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#named-arguments)
+3. [Parâmetros opcionais](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#optional-arguments)
+4. [Sobrecarga de métodos (overloading)](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/member-overloading)
+5. [Métodos de extensão](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/how-to-create-a-new-method-for-an-enumeration)
+6. [Arrow function ou expression body definition](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members#methods)
+7. [Membros (prop e métodos) estáticos](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)
+8. [Acessador init para propriedade verificável e imutável (propriedade continua opcional)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/readonly#readonly-field-example)
+9. [Propriedade required como obrigatória no construtor ou inicialização do objeto](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/required)
+10. [Campos readonly como obrigatório no construtor ou declaração](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/readonly#readonly-field-example)
+
+### Para aprofundar
+- [Clean architecture dotnet](https://github.com/thangchung/clean-architecture-dotnet)
+- [Exemplo de solução .NET com arquitetura evolucionária (em 4 estágios)](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example)
+- [Q&A sobre temas avançados de .NET e C# (Stack Overflow - Por Maniero)](https://github.com/maniero/SOpt/blob/master/CSharp/Conceptual.md)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de publicações de uma biblioteca
+2. Crie um menu com três opções de cadastro (livro, revista e jornal)
+3. Crie também uma opção de menu para sair
+4. Titulo, ano publicação e editora são informações básicas a todas as publicações
+5. Defina a classe base como abstrata
+6. Crie um método abstrato para imprimir informações adicionais
+7. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
+8. O livro possui informações adicionais de autor e ISBN
+9. A revista possui informações adicionais de numero edição e ISSN
+10. O jornal possui informações adicionais de data edição e cidade
+11. Crie as três publicações solicitando leitura dos dados no console 
+12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
+13. Compile e execute
+15. `Crie uma classe Biblioteca para controlar as publicações. Crie um evento para publicação adicionada`
+16. `Acione o evento de publicação adicionada, passando por parametro o resultado do método ToString()`
+17. `Assine o evento e persista os dados recebidos do evento em um arquivo`
+18. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
+19. `Compile e execute`
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **`Exercício prático 1`**
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
+2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
+3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
+6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
+7. Crie um menu com opções para cadastrar os três tipos de funcionário
+8. Crie também um menu para sair
+9. Compile e execute
+- **`Exercício prático 2`**
+1. Evolua o exercício anterior com os próximos passos
+2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários
+4. Compile e execute
+- **`Exercício prático 3`**
+1. `Evolua o exercício anterior com os próximos passos`
+2. `Crie uma classe Hamburgueria para controlar os funcionários. Crie um evento para funcionário adicionado`
+3. `Acione o evento de funcionário adicionado, passando por parametro o resultado do método ToString()`
+4. `Assine o evento e persista os dados recebidos do evento em um arquivo`
+5. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
+6. `Compile e execute`
+- **`Exercício prático 4`**
+1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
+2. Use a criatividade para personalizar o seu cadastro
+3. Compile e execute
+</details>
+
+## Packages para usar em consoles
+- [Colorful.Console](https://github.com/tomakita/Colorful.Console)
+- [ConsoleTables](https://github.com/khalidabuhakmeh/ConsoleTables)
+- [ConsoleTableExt](https://github.com/minhhungit/ConsoleTableExt)
+- [Shellprogressbar](https://github.com/Mpdreamz/shellprogressbar)
+
+## Perfis para seguir (posts/newsletter .NET)
+- [https://www.linkedin.com/in/milan-jovanovic](https://www.linkedin.com/in/milan-jovanovic/) (.NET - +200k)
+- [https://www.linkedin.com/in/djokic-stefan](https://www.linkedin.com/in/djokic-stefan/) (.NET +90k)
+- [https://www.linkedin.com/in/davidcallan](https://www.linkedin.com/in/davidcallan/) (.NET +60k)
+- [https://www.linkedin.com/in/davitshergilashvili](https://www.linkedin.com/in/davitshergilashvili/) (Architecture +50k)
+- [https://www.linkedin.com/in/mwaseemzakir](https://www.linkedin.com/in/mwaseemzakir/) (.NET +50k)
+
+## Perfis para seguir (posts/newsletter System Design)
+- [https://www.linkedin.com/in/ashishps1](https://www.linkedin.com/in/ashishps1/) (System Design +55k)
+- [https://www.linkedin.com/in/alexxubyte](https://www.linkedin.com/in/alexxubyte/) (System Design +800k)
+- [https://www.linkedin.com/in/arslanahmad](https://www.linkedin.com/in/arslanahmad) (System Design +150k)
+
+## Para entrevistas e preparação
+- [Especificação de projetos desafiadores (por nível de dificuldade)](https://github.com/ashishps1/awesome-coding-projects)
+- [Leetcode resources](https://github.com/ashishps1/awesome-leetcode-resources)
+- [Interview Q&A](https://github.com/ashishps1/awesome-behavioral-interviews)
