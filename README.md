@@ -299,7 +299,97 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
+
 ## 📌 Learning Path 3.1
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: C# avançado (tipos anuláveis, sobrecarga (overloading), métodos de extensão, parâmetros opcionais e nomeados, arrow function, required, init, readonly, operador ternário)
+
+
+1. [Tipos de referência anuláveis](https://learn.microsoft.com/pt-br/dotnet/csharp/nullable-references)
+2. [Parâmetros nomeados](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#named-arguments)
+3. [Parâmetros opcionais](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#optional-arguments)
+4. [Sobrecarga de métodos (overloading)](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/member-overloading)
+5. [Métodos de extensão](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/how-to-create-a-new-method-for-an-enumeration)
+6. [Arrow function ou expression body definition](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members#methods)
+7. [Membros (prop e métodos) estáticos](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)
+8. [Acessador init para propriedade verificável e imutável (propriedade continua opcional)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/readonly#readonly-field-example)
+9. [Propriedade required como obrigatória no construtor ou inicialização do objeto](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/required)
+10. [Campos readonly como obrigatório no construtor ou declaração](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/readonly#readonly-field-example)
+11. [Operador Ternário (?:)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator)
+
+
+### Para aprofundar
+- [Clean Code para C# (thangchung)](https://github.com/thangchung/clean-code-dotnet)
+- [Q&A sobre temas avançados de .NET e C# (Stack Overflow - Por Maniero)](https://github.com/maniero/SOpt/blob/master/CSharp/Conceptual.md)
+
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Implemente um programa de cadastro de funcionários de uma hamburgueria (apenas um funcionário)
+2. Crie apenas 1 (um) objeto do tipo funcionário com valores fixos (não leia do console)
+3. Formulário de leitura de dados pessoais: nome, sobrenome e salário
+4. Aceite apenas nome e sobrenome preenchido (readonly, required, init, ternário)
+5. Aceite apenas salário maior que zero (readonly, required, init, ternário)
+6. Capture as exceções que podem ocorrer, exiba mensagem de erro, encerre ou reinicie o programa
+7. Exiba o nome completo em caixa alta (arrow function)
+8. Exiba o valor da hora extra. Regra: Salario / 160 * 40%
+9. Compile e execute
+10. Exiba o valor da hora extra com opção de adicional noturno de 60% (parametro nomeado, método sobrecarga ou parâmetro opcional)
+11. Compile e execute
+12. Adicione a leitura da data de nascimento ao formulário
+13. Aceite data nascimento como opcional (tipo anulável)
+14. Aceite data nascimento menor que a data atual (set verificável, ternário)
+15. Imprima no console se a pessoa é menor aprendiz (menor que 18)
+16. Compile e execute
+17. Adicione a leitura do desempenho do funcionário (abaixo, regular, superado, excepcional)
+18. Crie um método de extensão que enquadre todas as classificações como elegível a bônus exceto a classificação abaixo
+19. Exiba se o funcionário está elegível ou não a bônus
+20. Compile e execute
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **`Exercício prático 1`**
+1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
+2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
+3. Imprima uma lista de menu com duas opções de produto da loja (exemplo: beef burger e fish burguer)
+4. Leia a opção de produto desejado pelo usuário
+5. Leia a quantidade desejada, calcule e imprima o total do pedido
+6. Aceite apenas quantidade maior que zero
+7. Capture as exceções que podem ocorrer, exiba mensagem de erro, encerre ou reinicie o programa
+8. Calcule um desconto de 10% para total de pedido acima de 200 reais
+9. Compile e execute
+10. `Use algum ou alguns dos recursos demonstrados nesta aula`
+- **`Exercício prático 2`**
+1. Calcule o IMC de uma pessoa (peso / altura)
+2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
+3. Compile e execute
+4. `Use algum ou alguns dos recursos demonstrados nesta aula`
+- **`Exercício prático 3`**
+1. Calcule e imprima a média escolar de aluno com base em três notas (nome, nota1, nota2, nota3)
+2. Informe a situação atual do aluno (reprovado < 5; aprovado ≥ 7; recuperação 5 ≥ e < 7)
+3. Compile e execute
+4. `Use algum ou alguns dos recursos demonstrados nesta aula`
+- **`Exercício prático 4`**
+1. Conversor de temperatura de celsius para fahrenheit 
+2. Leia temperatura em celsius e imprima a temperatura em fahrenheit
+3. Compile e execute
+4. `Use algum ou alguns dos recursos demonstrados nesta aula`
+</details>
+
+
+</br>
+
+## 📌 Learning Path 3.2
 ### Tópicos principais
 
 
@@ -366,7 +456,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
-## 📌 Learning Path 3.2
+## 📌 Learning Path 4.1
 ### Tópicos principais
 
 
@@ -433,12 +523,13 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
-## 📌 Learning Path 4.1
+## 📌 Learning Path 4.2
 ### Tópicos principais
 
 
 > [!IMPORTANT]
 > *Assuntos cobertos: Programação orientada a objetos (herança)*
+> </br> **Leitura do TP2**
 
 1. [O que é uma herança - relacionamento do tipo “é um” (ex: garçon "é um" funcionário)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
 2. [Conceito de classe base e classe derivada](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
@@ -507,13 +598,12 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
-## 📌 Learning Path 4.2
+## 📌 Learning Path 5.1
 ### Tópicos principais
 
 
 > [!IMPORTANT]
 > *Assuntos cobertos: Programação orientada a objetos (polimorfismo)*
-> </br> **Leitura do TP2**
 
 1. [O que é polimorfismo](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/polymorphism)
 2. [Permitindo a sobrescrita de membros na classe base (virtual)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/virtual)
@@ -523,7 +613,8 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 
 ### Para aprofundar
-- [Clean Code para C# (thangchung)](https://github.com/thangchung/clean-code-dotnet)
+- [Clean architecture dotnet](https://github.com/thangchung/clean-architecture-dotnet)
+- [Exemplo de solução .NET com arquitetura evolucionária (em 4 estágios)](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example)
 - [Exemplo de modelagens de objetos/classes para problemas reais](https://github.com/ashishps1/awesome-low-level-design?tab=readme-ov-file#-low-level-design-interview-problems)
 - [Exemplos de projetos reais completos](https://github.com/thangchung/awesome-dotnet-core?tab=readme-ov-file#sample-projects)
 
@@ -587,7 +678,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
-## 📌 Learning Path 5.1
+## 📌 Learning Path 5.2
 ### Tópicos principais
 
 
@@ -665,7 +756,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
-## 📌 Learning Path 5.2
+## 📌 Learning Path 6.1
 ### Tópicos principais
 
 
@@ -744,12 +835,13 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
-## 📌 Learning Path 6.1
-### Tópicos principais
 
+## 📌 Learning Path 6.2
+### Tópicos principais
 
 > [!IMPORTANT]
 > *Assuntos cobertos: Programação orientada a objetos (relacionamento entre objetos)*
+> </br> **Leitura do TP3**
 
 1. [Agregação - Agrega, existem separadamente, relacionamento "tem um"](https://learning.oreilly.com/library/view/hands-on-object-oriented-programming/9781788296229/a68cdc1a-4eb8-4ce7-b689-70e915ea5abd.xhtml)
 2. [Composição - Compõe, dependem um do outro (gerencia ciclo de vida), relacionamento "parte de"](https://learning.oreilly.com/library/view/hands-on-object-oriented-programming/9781788296229/3b1f6c0e-8884-448d-acf2-3a5546acd286.xhtml)
@@ -779,7 +871,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 9. O livro possui informações adicionais de autor e ISBN
 10. A revista possui informações adicionais de numero edição e ISSN
 11. O jornal possui informações adicionais de data edição e cidade
-12. Crie as três publicações solicitando leitura dos dados no console 
+12. Crie as três publicações solicitando leitura dos dados no console
 13. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
 14. Compile e execute
 15. `Crie uma nova classe Biblioteca e uma agregação com publicação`
@@ -827,13 +919,12 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
-## 📌 Learning Path 6.2
+## 📌 Learning Path 7.1
 ### Tópicos principais
 
 
 > [!IMPORTANT]
 > *Assuntos cobertos: Leitura e escrita em arquivos (streams/fluxos)*
-> </br> **Leitura do TP3**
 
 1. [Arquivos e diretórios](https://learn.microsoft.com/pt-br/dotnet/standard/io/#files-and-directories)
 2. [Exemplos de como se referir a um arquivo](https://learn.microsoft.com/pt-br/dotnet/standard/io/file-path-formats#example-ways-to-refer-to-the-same-file)
@@ -904,13 +995,10 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 3. Compile e execute
 </details>
 
-
 </br>
 
-
-## 📌 Learning Path 7.1
+## 📌 Learning Path 7.2
 ### Tópicos principais
-
 
 > [!IMPORTANT]
 > *Assuntos cobertos: Leitura e escrita em arquivos (ReadAllLines, WriteAllLines, string.Split)*
@@ -986,7 +1074,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </br>
 
 
-## 📌 Learning Path 7.2
+## 📌 Learning Path 8.1
 ### Tópicos principais
 
 
@@ -1062,12 +1150,13 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </br>
 
 
-## 📌 Learning Path 8.1
+## 📌 Learning Path 8.2
 ### Tópicos principais
 
 
 > [!IMPORTANT]
 > *Assuntos cobertos: Eventos*
+> </br> **Leitura do AT**
 
 1. [Eventos - Visão Geral](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/events/)
 2. [Assinar eventos](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/events/how-to-subscribe-to-and-unsubscribe-from-events#to-subscribe-to-events-programmatically)
@@ -1101,100 +1190,11 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 11. Crie as três publicações solicitando leitura dos dados no console 
 12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
 13. Compile e execute
-15. `Crie uma classe Biblioteca para controlar as publicações. Crie um evento para publicação adicionada`
-16. `Acione o evento de publicação adicionada, passando por parametro o resultado do método ToString()`
-17. `Assine o evento e persista os dados recebidos do evento em um arquivo`
-18. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
-19. `Compile e execute`
-</details>
-
-<details>
-<summary>Exercícios práticos</summary>
-
-- **`Exercício prático 1`**
-1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
-2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
-3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
-4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
-5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
-6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
-7. Crie um menu com opções para cadastrar os três tipos de funcionário
-8. Crie também um menu para sair
-9. Compile e execute
-- **`Exercício prático 2`**
-1. Evolua o exercício anterior com os próximos passos
-2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
-3. Exiba o salário base de cada um dos três funcionários
-4. Compile e execute
-- **`Exercício prático 3`**
-1. `Evolua o exercício anterior com os próximos passos`
-2. `Crie uma classe Hamburgueria para controlar os funcionários. Crie um evento para funcionário adicionado`
-3. `Acione o evento de funcionário adicionado, passando por parametro o resultado do método ToString()`
-4. `Assine o evento e persista os dados recebidos do evento em um arquivo`
-5. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
-6. `Compile e execute`
-- **`Exercício prático 4`**
-1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
-2. Use a criatividade para personalizar o seu cadastro
-3. Compile e execute
-</details>
-
-
-</br>
-
-
-## 📌 Learning Path 8.2
-### Tópicos principais
-
-
-> [!IMPORTANT]
-> *Assuntos cobertos: C# avançado (tipos anuláveis, sobrecarga (overloading), métodos de extensão, parâmetros opcionais e nomeados, arrow function, required, init, readonly, operador ternário)
-> </br> **Leitura do AT**
-
-1. [Tipos de referência anuláveis](https://learn.microsoft.com/pt-br/dotnet/csharp/nullable-references)
-2. [Parâmetros nomeados](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#named-arguments)
-3. [Parâmetros opcionais](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#optional-arguments)
-4. [Sobrecarga de métodos (overloading)](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/member-overloading)
-5. [Métodos de extensão](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/how-to-create-a-new-method-for-an-enumeration)
-6. [Arrow function ou expression body definition](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members#methods)
-7. [Membros (prop e métodos) estáticos](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)
-8. [Acessador init para propriedade verificável e imutável (propriedade continua opcional)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/readonly#readonly-field-example)
-9. [Propriedade required como obrigatória no construtor ou inicialização do objeto](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/required)
-10. [Campos readonly como obrigatório no construtor ou declaração](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/readonly#readonly-field-example)
-11. [Operador Ternário (?:)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator)
-
-
-### Para aprofundar
-- [Clean architecture dotnet](https://github.com/thangchung/clean-architecture-dotnet)
-- [Exemplo de solução .NET com arquitetura evolucionária (em 4 estágios)](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example)
-- [Q&A sobre temas avançados de .NET e C# (Stack Overflow - Por Maniero)](https://github.com/maniero/SOpt/blob/master/CSharp/Conceptual.md)
-
-
-### Exercícios
-> [!CAUTION]
-> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
-
-<details>
-<summary>Exercício em aula</summary>
-
-1. Implemente um programa de cadastro de publicações de uma biblioteca
-2. Crie um menu com três opções de cadastro (livro, revista e jornal)
-3. Crie também uma opção de menu para sair
-4. Titulo, ano publicação e editora são informações básicas a todas as publicações
-5. Defina a classe base como abstrata
-6. Crie um método abstrato para imprimir informações adicionais
-7. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
-8. O livro possui informações adicionais de autor e ISBN
-9. A revista possui informações adicionais de numero edição e ISSN
-10. O jornal possui informações adicionais de data edição e cidade
-11. Crie as três publicações solicitando leitura dos dados no console 
-12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
-13. Compile e execute
-15. `Crie uma classe Biblioteca para controlar as publicações. Crie um evento para publicação adicionada`
-16. `Acione o evento de publicação adicionada, passando por parametro o resultado do método ToString()`
-17. `Assine o evento e persista os dados recebidos do evento em um arquivo`
-18. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
-19. `Compile e execute`
+14. `Crie uma classe Biblioteca para controlar as publicações. Crie um evento para publicação adicionada`
+15. `Acione o evento de publicação adicionada, passando por parametro o resultado do método ToString()`
+16. `Assine o evento e persista os dados recebidos do evento em um arquivo`
+17. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
+18. `Compile e execute`
 </details>
 
 <details>
