@@ -1226,25 +1226,28 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </br>
 </br>
 
-## :hammer_and_pick: Packages para usar em consoles
+## :hammer_and_wrench: Packages para usar em consoles
 - [Colorful.Console](https://github.com/tomakita/Colorful.Console)
 - [ConsoleTables](https://github.com/khalidabuhakmeh/ConsoleTables)
 - [ConsoleTableExt](https://github.com/minhhungit/ConsoleTableExt)
 - [Shellprogressbar](https://github.com/Mpdreamz/shellprogressbar)
 
-## Perfis para seguir (posts/newsletter .NET)
+
+## :mage: Perfis para seguir (posts/newsletter .NET)
 - [https://www.linkedin.com/in/milan-jovanovic](https://www.linkedin.com/in/milan-jovanovic/) (.NET - +200k)
 - [https://www.linkedin.com/in/djokic-stefan](https://www.linkedin.com/in/djokic-stefan/) (.NET +90k)
 - [https://www.linkedin.com/in/davidcallan](https://www.linkedin.com/in/davidcallan/) (.NET +60k)
 - [https://www.linkedin.com/in/davitshergilashvili](https://www.linkedin.com/in/davitshergilashvili/) (Architecture +50k)
 - [https://www.linkedin.com/in/mwaseemzakir](https://www.linkedin.com/in/mwaseemzakir/) (.NET +50k)
 
-## Perfis para seguir (posts/newsletter System Design)
+
+## :link: Perfis para seguir (posts/newsletter System Design)
 - [https://www.linkedin.com/in/ashishps1](https://www.linkedin.com/in/ashishps1/) (System Design +55k)
 - [https://www.linkedin.com/in/alexxubyte](https://www.linkedin.com/in/alexxubyte/) (System Design +800k)
 - [https://www.linkedin.com/in/arslanahmad](https://www.linkedin.com/in/arslanahmad) (System Design +150k)
 
-## Para entrevistas e preparação
+
+## :1st_place_medal: Para preparação e entrevistas
 - [Especificação de projetos desafiadores (por nível de dificuldade)](https://github.com/ashishps1/awesome-coding-projects)
 - [Leetcode resources](https://github.com/ashishps1/awesome-leetcode-resources)
 - [Interview Q&A](https://github.com/ashishps1/awesome-behavioral-interviews)
