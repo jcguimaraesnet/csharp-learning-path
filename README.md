@@ -42,11 +42,12 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/main)
   
 <details>
 <summary>Exercício em aula</summary>
 
-1. Imprima no console a frase “Hello World”. 
+1. Imprima no console a frase “Hello World”.
 2. Compile e execute.
 3. Após, crie variáveis atribuindo um nome, uma idade e um salário. Imprima as variáveis no console.
 4. Compile e execute.
