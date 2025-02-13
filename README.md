@@ -104,6 +104,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-1_2)
 
 <details>
 <summary>Exercício em aula</summary>
@@ -112,13 +113,13 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 2. Formulário de leitura de dados pessoais: nome, sobrenome e salário
 3. Exiba o nome completo em caixa alta
 4. Compile e execute
-5. Leia a quantidade de horas trabalhadas no mês (int)
-6. Calcule o valor hora do funcionário dividindo o salário pelas horas trabalhadas no mês
+5. Defina uma constante com o total de horas padrão mensal
+6. Calcule e imprima o valor hora do funcionário dividindo o salário pelo total de horas padrão mensal 
 7. Compile e execute
 8. Adicione a leitura da data de nascimento ao formulário
 9. Imprima no console se a pessoa é menor aprendiz (menor que 18)
 10. Compile e execute
-11. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
+11. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (<=1.5k, <=5k, <=10k, <=20k, +20k)
 12. Compile e execute
 </details>
 
