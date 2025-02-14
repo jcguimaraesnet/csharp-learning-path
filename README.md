@@ -172,6 +172,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-2_1)
 
 <details>
 <summary>Exercício em aula</summary>
@@ -215,7 +216,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 3. Compile e execute
 - **`Exercício prático 4`**
 1. Defina um array de float com 4 posições, leia 4 notas escolares, calcule a média, a maior e a menor nota 
-2. Imprima a média a maior, a maior e a menor nota
+2. Imprima a média das notas, a maior e a menor nota
 3. Compile e execute
 </details>
 
