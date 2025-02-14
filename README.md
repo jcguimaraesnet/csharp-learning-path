@@ -254,22 +254,24 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-2_2)
 
 <details>
 <summary>Exercício em aula</summary>
 
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (apenas um funcionário)
-2. Formulário de leitura de dados pessoais: nome, sobrenome e salário
-3. Aceite apenas salário maior que zero
-4. Capture as exceções que podem ocorrer, exiba mensagem de erro, encerre ou reinicie o programa
-5. Exiba o nome completo em caixa alta
-6. Exiba o valor da hora extra. Regra: Salario / 160 * 40%
-7. Compile e execute
-8. Adicione a leitura da data de nascimento ao formulário
-9. Imprima no console se a pessoa é menor aprendiz (menor que 18)
-10. Compile e execute
-11. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (1.5k, 5k, 10k, 20k, 40k)
-12. Compile e execute
+2. Crie apenas 1 (um) objeto do tipo funcionário com valores fixos (não leia do console)
+3. Formulário de leitura de dados pessoais: nome, sobrenome e salário
+4. Aceite apenas salário maior que zero
+5. Capture as exceções que podem ocorrer, exiba mensagem de erro, encerre ou reinicie o programa
+6. Exiba o nome completo em caixa alta
+7. Exiba o valor da hora extra. Regra: Salario / 160 * 40%
+8. Compile e execute
+9. Adicione a leitura da data de nascimento ao formulário
+10. Imprima no console se a pessoa é menor aprendiz (menor que 18)
+11. Compile e execute
+12. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (<=1.5k, <=5k, <=10k, <=20k, +20k)
+13. Compile e execute
 </details>
 
 <details>
