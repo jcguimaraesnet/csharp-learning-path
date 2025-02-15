@@ -334,6 +334,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-3_1)
 
 <details>
 <summary>Exercício em aula</summary>
@@ -354,10 +355,11 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 14. Aceite data nascimento menor que a data atual (set verificável, ternário)
 15. Imprima no console se a pessoa é menor aprendiz (menor que 18)
 16. Compile e execute
-17. Adicione a leitura do desempenho do funcionário (abaixo, regular, superado, excepcional)
-18. Crie um método de extensão que enquadre todas as classificações como elegível a bônus exceto a classificação abaixo
-19. Exiba se o funcionário está elegível ou não a bônus
-20. Compile e execute
+17. Exiba a categoria de classe de renda (A, B, C, D e E) por faixa de renda (<=1.5k, <=5k, <=10k, <=20k, +20k)
+18. Compile e execute
+19. Crie um método de extensão que enquadre as classificações D e E como elegível ao bolsa família
+20. Exiba se o funcionário está elegível ou não ao bolsa família
+21. Compile e execute
 </details>
 
 <details>
