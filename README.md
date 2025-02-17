@@ -424,6 +424,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 <details>
 <summary>Exercício em aula</summary>
 
+0. Implemente um exemplo simples de soma (LINQ), a partir de uma coleção fixa de inteiros
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (vários funcionários)
 2. Apresente um menu com três opções: adicionar funcionário, calcular folha e sair
 3. Opção 1: ler os dados do funcionário: nome e salário
@@ -440,6 +441,18 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 <summary>Exercícios práticos</summary>
 
 - **`Exercício prático 1`**
+1. Crie uma coleção com cinco nome de frutas (nomes fixos no programa)
+2. Filtre e imprima os nomes de frutas que começam com a letra “b” ou “B”
+3. Compile e execute
+- **`Exercício prático 2`**
+1. Crie uma coleção que contenha frutas do tipo crítica e não cítricas (fixos no programa)
+2. Filtre e imprima apenas as frutas do tipo cítricas
+3. Compile e execute
+- **`Exercício prático 3`**
+1. Crie uma coleção que contenha 10 números inteiros (fixos no programa)
+2. Imprima somente os números ímpares
+3. Compile e execute
+- **`Exercício prático 4`**
 1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
 2. Apresente um menu com duas opções de produto e seus valores (exemplo: beef burger e fish burguer)
 3. Leia a opção de produto desejado pelo usuário
@@ -447,18 +460,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 5. Ofereça também um item de menu para calcular o valor total de todos os pedidos
 6. E ofereça um outro item de menu para sair do programa
 7. Compile e execute
-- **`Exercício prático 2`**
-1. Crie uma coleção com cinco nome de frutas (nomes fixos no programa)
-2. Filtre e imprima os nomes de frutas que começam com a letra “b” ou “B”
-3. Compile e execute
-- **`Exercício prático 3`**
-1. Crie uma coleção que contenha frutas do tipo crítica e não cítricas (fixos no programa)
-2. Filtre e imprima apenas as frutas do tipo cítricas
-3. Compile e execute
-- **`Exercício prático 4`**
-1. Crie uma coleção que contenha 10 números inteiros (fixos no programa)
-2. Imprima somente os números ímpares
-3. Compile e execute
+
 </details>
 
 </br>
