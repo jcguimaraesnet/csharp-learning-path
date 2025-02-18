@@ -420,6 +420,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-3_2)
 
 <details>
 <summary>Exercício em aula</summary>
@@ -505,29 +506,32 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 - **`Exercício prático 1`**
 1. Implemente um programa de cadastro de um funcionário de uma loja (tema do aluno)
 2. Apresente um menu com três opções: adicionar funcionário, aumentar e exibir salario, e sair
-3. Opção 1: ler os dados do funcionário: nome, cargo e salário
-4. Opção 2: Aumentar o salário (regra → aplicar 20% de aumento para gerente e 10% para os demais)
-5. Opção 3: Exibir salário
-6. Opção 4: Sair do programa
-7. Compile e execute
+3. Opção 1: ler os dados do funcionário: nome, cargo e salário (regra: salário maior que zero)
+4. Opção 2: Aumentar  e exibir o salário dos funcionários (regra → 20% para gerente e 10% para os demais)
+6. Opção 3: Sair do programa
+7. Use os princípios de encapsulamento, definindo a visibilidade adequada para os membros da classe
+8. Compile e execute
 - **`Exercício prático 2`**
 1. Simule operações de transações com um cartão de crédito (duas ou mais transações de compra)
 2. Antes de simular as operações, defina um limite inicial de R$ 5000,00
-3. Imprima na tela o limite atual
-4. Compile e execute
+3. Imprima a fatura com o limite atual
+4. Use os princípios de encapsulamento, definindo a visibilidade adequada para os membros da classe
+5. Compile e execute
 - **`Exercício prático 3`**
 1. Simule um sistema de fidelidade de pontos (duas ou mais transações)
 2. Antes de simular as operações, defina uma pontuação inicial de 50 pontos
 3. Cada transação deve ser convertida em dólar. Cada dólar gera 1 ponto.
 4. Simule uma operação de resgate de 10 pontos.
-5. Imprima na tela a pontuação atual
-6. Compile e execute
+5. Imprima na tela o extrato com a pontuação atual
+6. Use os princípios de encapsulamento, definindo a visibilidade adequada para os membros da classe
+7. Compile e execute
 - **`Exercício prático 4`**
 1. Simule um carrinho de compras de um ecommerce
-2. Simule duas ou mais operações de “adicionar itens ao carrinho” informando tipo e qtde do produto
+2. Simule duas ou mais operações de “adicionar itens ao carrinho” informando produto, preço e qtde
 3. Crie uma propriedade que contenha o total do pedido
 4. Imprima na tela o valor total do pedido
-5. Compile e execute
+5. Use os princípios de encapsulamento, definindo a visibilidade adequada para os membros da classe
+6. Compile e execute
 </details>
 
 </br>
