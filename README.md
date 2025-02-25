@@ -547,9 +547,10 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 1. [O que é uma herança - relacionamento do tipo “é um” (ex: garçon "é um" funcionário)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
 2. [Conceito de classe base e classe derivada](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
-3. [Palavra-chave base para herança explícita de construtor (não existe herança implícita de construtor)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/base)
-4. [Palavra-chave sealed para impedir herança](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/sealed)
-5. [Sobrecarregando métodos](https://learn.microsoft.com/pt-br/dotnet/standard/design-guidelines/member-overloading)
+3. [Palavra-chave 'base' para herança explícita de construtor (não existe herança implícita de construtor)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/base)
+4. [Visibilidade 'protected'](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/protected)
+5. [Palavra-chave 'sealed' para impedir herança](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/sealed)
+6. [Sobrecarregando métodos](https://learn.microsoft.com/pt-br/dotnet/standard/design-guidelines/member-overloading)
 
 
 ### Para aprofundar
@@ -566,16 +567,17 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 1. Implemente um programa de cadastro de publicações de uma biblioteca
 2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
-3. Titulo, ano publicação e editora são informações básicas a todas as publicações
-4. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação
-5. O livro possui informações adicionais de autor e ISBN
-6. A revista possui informações adicionais de numero edição e ISSN
-7. O jornal possui informações adicionais de data edição e cidade
-8. Crie as três publicações atribuindo valores aleatórios (use herança de construtor)
-9. Crie um método para cada tipo de publicação para imprimir as informações básicas e adicionais (Ex: ExibirDadosLivro). Execute cada método.
-10. Compile e execute
-11. Crie um método (sobreescrita - override) para cada tipo de publicação para imprimir as informações segmentadas em duas partes ("Informações básicas:" e "Informações adicionais:"). Execute cada método.
-12. Compile e execute
+3. Titulo, ano publicação e valor são informações básicas a todas as publicações
+4. O livro possui informações adicionais de autor e ISBN
+5. A revista possui informações adicionais de numero edição e ISSN
+6. O jornal possui informações adicionais de data edição e cidade
+7. Crie três publicações atribuindo valores fixos e aleatórios
+8. Compile e execute
+9. Crie um método `protegido` na classe base para exibir as informações básicas (ex: ExibirDadosBasicos)
+10. Crie um método sem parâmetros para exibir todas as informações (básicas e adicionais) nas classes derivadas (cor padrão)
+11. Crie um método `com sobrecarga` do método anterior para exibir as informações em cores (parâmetro ConsoleColor)
+12. Exiba no console os dados de cada publicação em cores diferentes
+13. Compile e execute
 
 </details>
 
@@ -586,24 +588,27 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
-4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (colecao de int)
 5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
-6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
-7. Crie os três funcionários atribuindo valores aleatórios (use herança de construtor)
-8. Exiba os dados comuns dos três funcionários
-9. Compile e execute
+6. O caixa possui informação adicional do valor faturamento mes anterior
+7. Crie um método `protegido` na classe base para exibir as informações básicas (Ex. ExibirDadosBasicos)
+8. Crie métodos nas classes derivadas para exibir as informações básicas e adicionais (use o método protegido)
+9. Crie três tipos de funcionário, atribuindo valores fixos e aleatórios (use herança de construtor)
+10. Exiba os dados de todos os funcionários
+11. Compile e execute
 - **`Exercício prático 2`**
 1. Evolua o exercício anterior com os próximos passos
-2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
-3. Exiba o salário base de cada um dos três funcionários
+2. Crie um método `protegido` na classe base para calcular o salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base com os dados básicos do funcionário
 4. Compile e execute
 - **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
 2. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
-3. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
+3. O supervisor possui calculo de adicional noturno (regra: madrugada 20% do salario base mensal e restante 10%)
 4. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
-5. Exiba o salario total mensal de cada um dos três funcionários (salario base + adicional)
-6. Compile e execute
+5. Crie um método privado nas classes derivadas para calcular o salário total (salario base + adicional)
+6. Exiba o salario total dos funcionários junto com os dados `adicionais`
+7. Compile e execute
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
@@ -641,19 +646,20 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 <summary>Exercício em aula</summary>
 
 1. Implemente um programa de cadastro de publicações de uma biblioteca
-2. Crie um menu com três opções de cadastro (livro, revista e jornal)
-3. Crie também uma opção de menu para exibir todas as publicações
-4. Crie também uma opção de menu para sair
-5. Titulo, ano publicação e editora são informações básicas a todas as publicações
-6. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação
-7. O livro possui informações adicionais de autor e ISBN
-8. A revista possui informações adicionais de numero edição e ISSN
-9. O jornal possui informações adicionais de data edição e cidade
-10. Crie as três publicações solicitando leitura dos dados no console 
-11. Sobrescreva o método de imprimir da classe base para exibir também as informações adicionais de cada tipo de publicação.
-12. Compile e execute
-13. Experimente usar o método ToString (ao invés do método Imprimir) para exibir os dados da publicação no console
-14. Compile e execute
+2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
+3. Titulo, ano publicação e valor são informações básicas a todas as publicações
+4. O livro possui informações adicionais de autor e ISBN
+5. A revista possui informações adicionais de numero edição e ISSN
+6. O jornal possui informações adicionais de data edição e cidade
+7. Crie três publicações atribuindo valores fixos e aleatórios
+8. Compile e execute
+9. Sobrescreva o método da classe base para exibir também as informações adicionais de cada tipo de publicação
+10. Compile e execute
+11. Simule cadastros de mais tipos de publicação com valores fixos e aleatórios em uma coleção
+12. Exiba as informações de todas as publicações no console (use polimorfismo)
+13. Compile e execute
+14. Experimente usar o método ToString no lugar do método que exibe as informações
+15. Compile e execute
 
 </details>
 
@@ -664,25 +670,28 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
-4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (colecao de int)
 5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
-6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
-7. Crie um menu com opções para cadastrar os três tipos de funcionário
-8. Crie também um menu para exibir os dados de todos os funcionários
-9. Crie também um menu para sair
-10. Compile e execute
+6. O caixa possui informação adicional do valor faturamento mes anterior
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Crie um método `virtual` na classe base para exibir as informações básicas
+9. Crie métodos `override` nas classes derivadas para exibir informações básicas e adicionais
+10. Exiba os dados de todos os funcionários (use polimorfismo)
+11. Compile e execute
 - **`Exercício prático 2`**
 1. Evolua o exercício anterior com os próximos passos
-2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
-3. Exiba o salário base de cada um dos três funcionários
+2. Crie um método `virtual` na classe base para calcular o salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base com os dados básicos do funcionário
 4. Compile e execute
 - **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
 2. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
 3. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
 4. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
-5. Exiba o salario total mensal (base + adicional) dos funcionários cadastrados
-6. Compile e execute
+5. Crie um método `override` para calcular o salário total (invoque o método virtual da classe base)
+6. Exiba o salario total dos funcionários (salario base + adicional) entre os dados `básicos`
+7. Exibia também o tipo do funcionário entre os dados `básicos`
+8. Compile e execute
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
