@@ -723,6 +723,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-5_2)
 
 <details>
 <summary>Exercício em aula</summary>
@@ -734,7 +735,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 4. O livro possui informações adicionais de autor e ISBN
 5. A revista possui informações adicionais de numero edição e ISSN
 6. O jornal possui informações adicionais de data edição e cidade
-7. Crie três publicações atribuindo valores fixos e aleatórios
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
 8. Compile e execute
 9. Defina a classe base como abstrata
 10. Crie um método abstrato para imprimir informações adicionais
@@ -761,19 +762,18 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 12. Compile e execute
 - **`Exercício prático 2`**
 1. Evolua o exercício anterior com os próximos passos
-2. Crie um método `abstract` na classe base para calcular o `salário adicional` de cada tipo de funcionário. 
-3. Crie um método `public` na classe base para calcular o salário base mensal. Regra: valor hora * total de horas mes (160)
-4. Exiba o salário base de cada um dos três funcionários
-5. Compile e execute
+2. Crie um método na classe base para calcular o salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários entre as informações básicas
+4. Compile e execute
 - **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
 2. Defina na classe base um método abstrato para calcular salario adicional
 3. Crie um método na classe base para calcular o salário total (salário base + adicional)
-4. Invoke o método abstrato no método anterior para exibir o salário total (base + adicional)
-5. Implemente um método de salário adicional para cada funcionário
-6. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
-7. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
-8. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
+4. Implemente o método abstrato de salário adicional para cada funcionário
+5. O garçom possui calculo de comissão (regra: salario base mensal * mesas / 100)
+6. O supervisor possui calculo de adicional noturno (regra: noite → 10% e madruga 20% salario base mensal)
+7. O caixa possui calculo de bonus (regra: valor faturamento mes anterior * 0.01%)
+8. Exiba o salário adicional e salário total entre as informações básicas
 9. Compile e execute
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
