@@ -728,7 +728,6 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 <details>
 <summary>Exercício em aula</summary>
 
-
 1. Implemente um programa de cadastro de publicações de uma biblioteca
 2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
 3. Titulo, ano publicação e editora são informações básicas a todas as publicações
@@ -805,28 +804,25 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-6_1)
 
 <details>
 <summary>Exercício em aula</summary>
 
 1. Implemente um programa de cadastro de publicações de uma biblioteca
-2. Crie um menu com três opções de cadastro (livro, revista e jornal)
-3. Crie também uma opção de menu para exibir todas as publicações
-4. Crie também uma opção de menu para sair
-5. Titulo, ano publicação e editora são informações básicas a todas as publicações
-6. Defina a classe base como abstrata
-7. Crie um método abstrato para imprimir informações adicionais
-8. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
-9. O livro possui informações adicionais de autor e ISBN
-10. A revista possui informações adicionais de numero edição e ISSN
-11. O jornal possui informações adicionais de data edição e cidade
-12. Crie as três publicações solicitando leitura dos dados no console 
-13. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
-14. Compile e execute
-15. `Crie uma opção de menu para exibir todas as publicações emprestáveis (somente para Livro e Revista)`
-16. `Crie uma interface IEmprestavel e adicione capacidades para emprestar, devolver e verificar disponibilidade`
-17. `Conclua a implementação usando interface`
-18. `Compile e execute`
+2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
+3. Titulo, ano publicação e editora são informações básicas a todas as publicações
+4. O livro possui informações adicionais de autor e ISBN
+5. A revista possui informações adicionais de numero edição e ISSN
+6. O jornal possui informações adicionais de data edição e cidade
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Compile e execute
+9. Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)
+10. Exiba as informações (básicas e adicionais) de todos os funcionários
+11. Compile e execute
+12. `Crie uma interface IEmprestavel e adicione capacidades para emprestar, devolver e verificar disponibilidade (somente para Livro e Revista)`
+13. `Itere sobre os publicações emprestáveis (somente emprestáveis) e e exiba os sesu dados`
+14. `Compile e execute`
 </details>
 
 <details>
@@ -836,24 +832,26 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
-4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (colecao de int)
 5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
-6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
-7. Crie um menu com opções para cadastrar os três tipos de funcionário
-8. Crie também um menu para exibir os dados de todos os funcionários
-9. Crie também um menu para sair
-10. Use o conceito de abstração em classe e método neste exercício
-11. Compile e execute
+6. O caixa possui informação adicional do valor faturamento mes anterior
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. `Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)`
+9. Compile e execute
 - **`Exercício prático 2`**
 1. Evolua o exercício anterior com os próximos passos
-2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
-3. Exiba o salário base de cada um dos três funcionários
-4. Compile e execute
+2. Crie um método na classe base para calcular o salário base mensal. Regra: valor hora * total de horas mes (160)
+3. Exiba o salário base de cada um dos três funcionários entre as informações básicas
+4. `Crie uma interface IDissidioElegivel e adicione a capacidade de acrescentar mais 10% ao Valor Hora de todos os funcionários elegíveis (somente supervisor e caixa)`
+5. `Dica: Se necessário, altere a acessibilidade de membros da classe base para protected`
+6. `Compile e execute`
 - **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
-2. `Crie uma opção de menu para acrescentar o dissidio ao valor hora, adicionando mais 10% a todos os funcionários elegíveis (somente supervisor e caixa)`
-3. `Crie uma interface IDissidioElegivel e adicione a capacidade de CalcularDissidio`
-4. `Compile e execute`
+2. `Itere sobre cada funcionário, e faça os três passos abaixo:`
+3. `1 - Exiba o nome, tipo funcionário e salário base`
+4. `2 - Acrescente o dissídio (somente aos elegíveis)`
+5. `3 - Exiba o salário base novamente com dissídio (somente aos elegíveis)`
+6. `Compile e execute`
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
