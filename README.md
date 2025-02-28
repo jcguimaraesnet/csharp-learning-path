@@ -861,8 +861,49 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
-
 ## 📌 Learning Path 6.2
+### Tópicos principais
+
+
+> [!IMPORTANT]
+> *Assuntos cobertos: Testes de unidade com C#*
+
+1. [Os vários tipos de testes](https://learn.microsoft.com/pt-br/dotnet/core/testing/)
+2. [Os pacotes mais populares para teste de unidade](https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test)
+3. [Padrão AAA de teste(Arrange-Act-Assert)](https://deviq.com/testing/arrange-act-assert)
+4. [Gerenciador de testes no VS](https://learn.microsoft.com/pt-br/visualstudio/test/run-unit-tests-with-test-explorer?view=vs-2022#run-tests-in-test-explorer)
+5. [Tipos de projeto de teste de unidade no VS](https://learn.microsoft.com/pt-br/visualstudio/test/create-a-unit-test-project?view=vs-2022#to-create-a-unit-test-project)
+
+### Para aprofundar
+- [Melhores práticas de teste de unidade](https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-best-practices)
+- [Pirâmide de testes](https://deviq.com/testing/testing-pyramid)
+
+### Exercícios
+> [!CAUTION]
+> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+
+<details>
+<summary>Exercício em aula</summary>
+
+1. Crie testes de unidade das classes implementadas
+2. Compile e execute
+</details>
+
+<details>
+<summary>Exercícios práticos</summary>
+
+- **`Exercício prático 1`**
+1. Crie testes de unidade das classes implementadas
+9. Compile e execute
+</details>
+
+</br>
+
+
+</br>
+
+
+## 📌 Learning Path 7.1
 ### Tópicos principais
 
 > [!IMPORTANT]
@@ -942,46 +983,6 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 2. Use a criatividade para personalizar o seu cadastro
 3. Compile e execute
 </details>
-
-</br>
-
-## 📌 Learning Path 7.1
-### Tópicos principais
-
-
-> [!IMPORTANT]
-> *Assuntos cobertos: Testes de unidade com C#*
-
-1. [Os vários tipos de testes](https://learn.microsoft.com/pt-br/dotnet/core/testing/)
-2. [Os pacotes mais populares para teste de unidade](https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-with-dotnet-test)
-3. [Padrão AAA de teste(Arrange-Act-Assert)](https://deviq.com/testing/arrange-act-assert)
-4. [Gerenciador de testes no VS](https://learn.microsoft.com/pt-br/visualstudio/test/run-unit-tests-with-test-explorer?view=vs-2022#run-tests-in-test-explorer)
-5. [Tipos de projeto de teste de unidade no VS](https://learn.microsoft.com/pt-br/visualstudio/test/create-a-unit-test-project?view=vs-2022#to-create-a-unit-test-project)
-
-### Para aprofundar
-- [Melhores práticas de teste de unidade](https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-best-practices)
-- [Pirâmide de testes](https://deviq.com/testing/testing-pyramid)
-
-### Exercícios
-> [!CAUTION]
-> *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
-
-<details>
-<summary>Exercício em aula</summary>
-
-1. Crie testes de unidade das classes implementadas
-2. Compile e execute
-</details>
-
-<details>
-<summary>Exercícios práticos</summary>
-
-- **`Exercício prático 1`**
-1. Crie testes de unidade das classes implementadas
-9. Compile e execute
-</details>
-
-</br>
 
 
 <!-- 
