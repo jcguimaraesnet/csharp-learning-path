@@ -923,6 +923,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-7_1)
 
 <details>
 <summary>Exercício em aula</summary>
@@ -966,7 +967,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 3. Exiba o salário base de cada um dos três funcionários entre as informações básicas
 4. `Crie uma opção para adicionar dependente (composição) a cada funcionário (nome e data nascimento)`
 5. `Ofereça um auxílio dependente aos funcionários, no valor de 500 reais para cada dependente`
-6. `Exiba o valor do salário base somado com o auxílio dependente`
+6. `Exiba o valor do salário base, do auxílio dependente e do valor total do salário (base + auxilio)`
 . `Compile e execute`
 - **`Exercício prático 3`**
 1. Evolua o exercício anterior com os próximos passos
@@ -980,9 +981,9 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </details>
 
 
-<!-- 
 
-## 📌 Learning Path 7.1
+
+## 📌 Learning Path 7.2
 ### Tópicos principais
 
 
@@ -1005,27 +1006,27 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-7_2)
 
 <details>
 <summary>Exercício em aula</summary>
 
 1. Implemente um programa de cadastro de publicações de uma biblioteca
-2. Crie um menu com três opções de cadastro (livro, revista e jornal)
-3. Crie também uma opção de menu para sair
-4. Titulo, ano publicação e editora são informações básicas a todas as publicações
-5. Defina a classe base como abstrata
-6. Crie um método abstrato para imprimir informações adicionais
-7. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
-8. O livro possui informações adicionais de autor e ISBN
-9. A revista possui informações adicionais de numero edição e ISSN
-10. O jornal possui informações adicionais de data edição e cidade
-11. Crie as três publicações solicitando leitura dos dados no console 
-12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
-13. Compile e execute
-14. `Crie uma opção de menu para gerar um relatório (txt) com os dados de todas as publicações - use o método existente Imprimir`
-15. `Crie uma opção de menu para ler o relatório (txt) de todas as publicações e exiba no console`
-16. `Use stream (fluxo) para gravar e ler os dados`
-17. `Compile e execute`
+2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
+3. Titulo, ano publicação e editora são informações básicas a todas as publicações
+4. O livro possui informações adicionais de autor e ISBN
+5. A revista possui informações adicionais de numero edição e ISSN
+6. O jornal possui informações adicionais de data edição e cidade
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Compile e execute
+9. Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)
+10. Exiba as informações (básicas e adicionais) de todos os funcionários
+11. Compile e execute
+12. `Crie uma nova classe Biblioteca (nome e localizacao) e uma agregação com publicação`
+13. `Crie um método na classe Biblioteca para gerar um relatório (txt) com os dados básicos de todas as publicações`
+14. `Crie um método na classe Biblioteca para exibir o relatório (txt) caso exista`
+15. `Use stream (fluxo) para gravar e ler os dados`
+16. `Compile e execute`
 </details>
 
 <details>
@@ -1035,23 +1036,23 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
-4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (colecao de int)
 5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
-6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
-7. Crie um menu com opções para cadastrar os três tipos de funcionário
-8. Crie também um menu para sair
-9. Compile e execute
+6. O caixa possui informação adicional do valor faturamento mes anterior
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)
+9. `Crie uma classe (nome: Hamburgueria) para gerenciar os funcionários (agregação)`
+10. Compile e execute
 - **`Exercício prático 2`**
-1. Evolua o exercício anterior com os próximos passos
-2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
-3. Exiba o salário base de cada um dos três funcionários
+1. `Evolua o exercício anterior com os próximos passos`
+2. `Crie um método para gerar um relatório (txt) com os dados básico dos funcionários`
+3. `Use stream (fluxo) para gravar os dados`
 4. Compile e execute
 - **`Exercício prático 3`**
 1. `Evolua o exercício anterior com os próximos passos`
-2. `Crie uma opção para gerar um relatório com os dados de todos os funcionários em arquivo (txt)`
-3. `Crie uma opção para ler o relatório (txt) com os dados de todos os funcionários`
-4. `Use stream (fluxo) para gravar e ler os dados`
-5. `Compile e execute`
+2. `Crie um método para exibir o relatório (txt) caso exista`
+3. `Use stream (fluxo) para ler os dados`
+4. `Compile e execute`
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
@@ -1060,11 +1061,8 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 </br>
 
--->
 
-
-
-## 📌 Learning Path 7.2
+## 📌 Learning Path 8.1
 ### Tópicos principais
 
 > [!IMPORTANT]
@@ -1141,7 +1139,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </br>
 
 
-## 📌 Learning Path 8.1
+## 📌 Learning Path 8.2 (Extra)
 ### Tópicos principais
 
 
@@ -1217,7 +1215,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 </br>
 
 
-## 📌 Learning Path 8.2
+## 📌 Learning Path 9.1 (Extra)
 ### Tópicos principais
 
 
