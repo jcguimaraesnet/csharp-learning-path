@@ -882,11 +882,13 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-6_2)
 
 <details>
 <summary>Exercício em aula</summary>
 
-1. Crie testes de unidade das classes implementadas
+1. Crie um novo projeto de teste usando xUnit e referencie o projeto Classroom
+1. Crie testes de unidade para a classe Livro
 2. Compile e execute
 </details>
 
@@ -894,12 +896,22 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 <summary>Exercícios práticos</summary>
 
 - **`Exercício prático 1`**
-1. Crie testes de unidade das classes implementadas
-9. Compile e execute
+1. Crie um novo projeto de teste usando xUnit e referencie o projeto Pratical_1
+2. Crie testes de unidade para a classe Funcionario
+3. Compile e execute os testes no Gerenciador de Testes
+- **`Exercício prático 2`**
+1. Crie um novo projeto de teste usando xUnit e referencie o projeto Pratical_2
+2. Crie testes de unidade para a classe Garçon
+3. Compile e execute os testes no Gerenciador de Testes
+- **`Exercício prático 3`**
+1. Crie um novo projeto de teste usando xUnit e referencie o projeto Pratical_3
+2. Crie testes de unidade para a classe Supervisor
+3. Compile e execute os testes no Gerenciador de Testes
+- **`Exercício prático 4`**
+1. Crie um novo projeto de teste usando xUnit e referencie o projeto personalizado de acordo com o tema da sua loja
+2. Crie testes de unidade para as classes do tema da sua loja
+3. Compile e execute
 </details>
-
-</br>
-
 
 </br>
 
@@ -1067,6 +1079,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 > [!IMPORTANT]
 > *Assuntos cobertos: Leitura e escrita em arquivos (ReadAllLines, WriteAllLines, string.Split)*
+> </br> **Leitura do AT**
 
 1. [Escrita de array de strings em arquivo - File.WriteAllLines](https://learn.microsoft.com/pt-br/dotnet/api/system.io.file.writealllines)
 2. [Leitura de arquivo para array de strings - File.ReadAllLines](https://learn.microsoft.com/pt-br/dotnet/api/system.io.file.readalllines)
@@ -1082,27 +1095,29 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-8_1)
 
 <details>
 <summary>Exercício em aula</summary>
 
 1. Implemente um programa de cadastro de publicações de uma biblioteca
-2. Crie um menu com três opções de cadastro (livro, revista e jornal)
-3. Crie também uma opção de menu para sair
-4. Titulo, ano publicação e editora são informações básicas a todas as publicações
-5. Defina a classe base como abstrata
-6. Crie um método abstrato para imprimir informações adicionais
-7. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
-8. O livro possui informações adicionais de autor e ISBN
-9. A revista possui informações adicionais de numero edição e ISSN
-10. O jornal possui informações adicionais de data edição e cidade
-11. Crie as três publicações solicitando leitura dos dados no console 
-12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
-13. Compile e execute
-14. `Ao sair do programa, grave os dados de todas as publicações de forma estruturada em um arquivo - use o método ToString`
-15. `Ao inicializar o programa, antes de exibir o menu, carregue os dados (a partir de arquivo) de todas as publicações em uma lista`
-16. `Crie uma opção de menu para exibir os dados básicos e adicionais de todas as publicações`
-17. `Compile e execute`
+2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
+3. Titulo, ano publicação e editora são informações básicas a todas as publicações
+4. O livro possui informações adicionais de autor e ISBN
+5. A revista possui informações adicionais de numero edição e ISSN
+6. O jornal possui informações adicionais de data edição e cidade
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Compile e execute
+9. Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)
+10. Exiba as informações (básicas e adicionais) de todos os funcionários
+11. Compile e execute
+12. `Crie uma nova classe Biblioteca (nome e localizacao) e uma agregação com publicação`
+13. `Crie um método na classe Biblioteca para exportar os dados de todas as publicações em arquivo (txt)`
+14. `Crie um método na classe Biblioteca para importar os dados de todas as publicações do arquivo (txt)`
+15. `Exporte e importe os dados básicos e/ou adicionais e realize as modificações necessárias no construtor das classes`
+16. `Exiba os dados de todas as publicações`
+17. `Use ReadAllLines e WriteAllLines para gravar e ler os dados`
+18. `Compile e execute`
 </details>
 
 <details>
@@ -1112,23 +1127,23 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
-4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (colecao de int)
 5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
-6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
-7. Crie um menu com opções para cadastrar os três tipos de funcionário
-8. Crie também um menu para sair
-9. Compile e execute
+6. O caixa possui informação adicional do valor faturamento mes anterior
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)
+9. `Crie uma classe (nome: Hamburgueria) para gerenciar os funcionários (agregação)`
+10. Compile e execute
 - **`Exercício prático 2`**
-1. Evolua o exercício anterior com os próximos passos
-2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
-3. Exiba o salário base de cada um dos três funcionários
+1. `Evolua o exercício anterior com os próximos passos`
+2. `Crie um método para exportar os dados dos funcionários em arquivo (txt)`
+3. `Use ReadAllLines e WriteAllLines para gravar e ler os dados`
 4. Compile e execute
 - **`Exercício prático 3`**
 1. `Evolua o exercício anterior com os próximos passos`
-2. `Ao sair do programa, grave os dados de forma estrutura de todos os funcionários em arquivo (txt)`
-3. `Ao inicializar o programa, antes de exibir o menu, carregue os dados de todos os funcionários`
-4. `Crie uma opção de menu para exibir todos os dados dos funcionários no console`
-5. `Compile e execute`
+2. `Crie um método para importar os dados dos funcionários a partir de um arquivo (txt)`
+3. `Use ReadAllLines e WriteAllLines para gravar e ler os dados`
+4. `Compile e execute`
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
