@@ -95,6 +95,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 8. [Operadores de comparação](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/comparison-operators)
 9. [Operadores lógicos](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/boolean-logical-operators)
 10. [Manipulando datas](https://learn.microsoft.com/pt-br/dotnet/standard/datetime/how-to-use-dateonly-timeonly)
+11. [TryParseExact para conversão de datas](https://learn.microsoft.com/pt-br/dotnet/api/system.datetime.tryparseexact)
 
 
 ### Para aprofundar
