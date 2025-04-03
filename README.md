@@ -1179,20 +1179,20 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 <details>
 <summary>Exercício em aula</summary>
 
-`Exemplo 1: Delegate como variável para receber métodos ("Toy problem" simples)`
+- `Exemplo 1: Delegate como variável para receber métodos ("Toy problem" simples)`
 1. Crie um delegate personalizado: `public delegate int Operacao(int x, int y);`
 2. Crie um método (estático) para Somar e multiplicar que seja compatível com a assinatura do Delegate
 3. No método Main, crie uma variável (soma) do tipo Operacao que receba o método de Somar
 4. No método Main, crie uma variável (multiplicacao) do tipo Operacao que receba o método de Multiplicacao
 5. `Execute` a variável soma passando por parâmetro dois inteiros e exiba o resultado
 6. `Execute` a variável multiplicacao passando por parâmetro dois inteiros e exiba o resultado
-`Exemplo 2: Delegate como parâmetro de método ("Toy problem" intermediário)`
+- `Exemplo 2: Delegate como parâmetro de método ("Toy problem" intermediário)`
 1. Crie um método void (ExecutarOperacao) que receba como parâmetros dois inteiros e o tipo Operacao (delegate)
 2. No método ExecutarOperacao, `execute` o parâmetro operacao informando os dois inteiros recebidos
 3. Imprima no console os dois inteiros e o resultado da execução do delegate (linha anterior)
 4. No método Main, execute o método ExecutarOperacao informando dois inteiros e a variável `soma`
 5. No método Main, execute o método ExecutarOperacao informando dois inteiros e a variável `multiplicacao`
-`Exemplo 3: Delegate como encadeamento de métodos ("Toy problem" intermediário)`
+- `Exemplo 3: Delegate como encadeamento de métodos ("Toy problem" intermediário)`
 1. Crie um delegate personalizado: public delegate `void` Operacao3(int x, int y);
 1. Crie um novo método void para Somar `(Somar3)`, que receba dois inteiros e `imprima o resultado no console`
 2. Crie um novo método void para Multiplicar `(Multiplicar3)`, que receba dois inteiros e `imprima resultado no console`
@@ -1200,18 +1200,18 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 4. Atribua o método `Somar3` a variável multiplasOperacoes
 5. Atribua o método `Multiplicar3` a variável multiplasOperacoes (use o operador +=)
 6. No método Main, execute a variável multiplasOperacoes informando dois inteiros
-`Exemplo 4: Delegate como callback ("Toy problem" avançado)`
+- `Exemplo 4: Delegate como callback ("Toy problem" avançado)`
 1. Crie um novo delegate personalizado: `public delegate void Callback(int result);`
 2. Crie um método (Imprimir) que receba um inteiro e o imprima no Console (compatível com o delagate Callback)
 3. Crie o método para Somar4, que receba dois inteiros e mais um parâmetro do tipo callback
 4. No método Somar4, execute a soma, e logo após, execute o callback informando como parâmeto o resultado da soma
 5. No método Main, execute o método Somar4, informando dois inteiros e o método Imprimir
 6. Agora execute os mesmos passos implementando o método Multiplicar4
-`Exemplo 5: Use o delegate predefinido Func`
+- `Exemplo 5: Use o delegate predefinido Func`
 1. Refaça o exemplo 1 usando o delegate predefinido Func com dois parâmetros e um retorno: Func<int, int, int>
-`Exemplo 6: Use o delegate predefinido Action`
+- `Exemplo 6: Use o delegate predefinido Action`
 1. Refaça o exemplo 3 usando o delegate predefinido Action com dois parâmetros: Action<int, int>
-`Exemplo final: Publicações e Biblioteca`
+- `Exemplo final: Publicações e Biblioteca`
 1. Implemente um programa de cadastro de publicações de uma biblioteca
 2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
 3. Titulo, ano publicação e editora são informações básicas a todas as publicações
