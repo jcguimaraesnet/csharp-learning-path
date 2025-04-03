@@ -1174,27 +1174,61 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ### Exercícios
 > [!CAUTION]
 > *Obs: Coloque o nome das soluções/projetos com o número da aula (Ex: Aula_1.1)*
+> </br> [Código fonte de exemplo](https://github.com/jcguimaraesnet/csharp-learning-path-exercises/tree/path-8_2)
 
 <details>
 <summary>Exercício em aula</summary>
 
+`Exemplo 1: Delegate como variável para receber métodos ("Toy problem" simples)`
+1. Crie um delegate personalizado: `public delegate int Operacao(int x, int y);`
+2. Crie um método (estático) para Somar e multiplicar que seja compatível com a assinatura do Delegate
+3. No método Main, crie uma variável (soma) do tipo Operacao que receba o método de Somar
+4. No método Main, crie uma variável (multiplicacao) do tipo Operacao que receba o método de Multiplicacao
+5. `Execute` a variável soma passando por parâmetro dois inteiros e exiba o resultado
+6. `Execute` a variável multiplicacao passando por parâmetro dois inteiros e exiba o resultado
+`Exemplo 2: Delegate como parâmetro de método ("Toy problem" intermediário)`
+1. Crie um método void (ExecutarOperacao) que receba como parâmetros dois inteiros e o tipo Operacao (delegate)
+2. No método ExecutarOperacao, `execute` o parâmetro operacao informando os dois inteiros recebidos
+3. Imprima no console os dois inteiros e o resultado da execução do delegate (linha anterior)
+4. No método Main, execute o método ExecutarOperacao informando dois inteiros e a variável `soma`
+5. No método Main, execute o método ExecutarOperacao informando dois inteiros e a variável `multiplicacao`
+`Exemplo 3: Delegate como encadeamento de métodos ("Toy problem" intermediário)`
+1. Crie um delegate personalizado: public delegate `void` Operacao3(int x, int y);
+1. Crie um novo método void para Somar `(Somar3)`, que receba dois inteiros e `imprima o resultado no console`
+2. Crie um novo método void para Multiplicar `(Multiplicar3)`, que receba dois inteiros e `imprima resultado no console`
+3. No método Main, crie uma variável `multiplasOperacoes` do tipo `Operacao3`
+4. Atribua o método `Somar3` a variável multiplasOperacoes
+5. Atribua o método `Multiplicar3` a variável multiplasOperacoes (use o operador +=)
+6. No método Main, execute a variável multiplasOperacoes informando dois inteiros
+`Exemplo 4: Delegate como callback ("Toy problem" avançado)`
+1. Crie um novo delegate personalizado: `public delegate void Callback(int result);`
+2. Crie um método (Imprimir) que receba um inteiro e o imprima no Console (compatível com o delagate Callback)
+3. Crie o método para Somar4, que receba dois inteiros e mais um parâmetro do tipo callback
+4. No método Somar4, execute a soma, e logo após, execute o callback informando como parâmeto o resultado da soma
+5. No método Main, execute o método Somar4, informando dois inteiros e o método Imprimir
+6. Agora execute os mesmos passos implementando o método Multiplicar4
+`Exemplo 5: Use o delegate predefinido Func`
+1. Refaça o exemplo 1 usando o delegate predefinido Func com dois parâmetros e um retorno: Func<int, int, int>
+`Exemplo 6: Use o delegate predefinido Action`
+1. Refaça o exemplo 3 usando o delegate predefinido Action com dois parâmetros: Action<int, int>
+`Exemplo final: Publicações e Biblioteca`
 1. Implemente um programa de cadastro de publicações de uma biblioteca
-2. Crie um menu com três opções de cadastro (livro, revista e jornal)
-3. Crie também uma opção de menu para sair
-4. Titulo, ano publicação e editora são informações básicas a todas as publicações
-5. Defina a classe base como abstrata
-6. Crie um método abstrato para imprimir informações adicionais
-7. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
-8. O livro possui informações adicionais de autor e ISBN
-9. A revista possui informações adicionais de numero edição e ISSN
-10. O jornal possui informações adicionais de data edição e cidade
-11. Crie as três publicações solicitando leitura dos dados no console 
-12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
-13. Compile e execute
-14. `Crie um menu de opção para exibir relatório com todos os dados (básicos e adicionais) no console`
-15. `Crie um menu de opção para gravar relatório com todos os dados (básicos e adicionais) em arquivo`
-16. `Use um único método Imprimir para atender os dois menus anteriores. Use delegate`
-17. `Compile e execute`
+2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
+3. Titulo, ano publicação e editora são informações básicas a todas as publicações
+4. O livro possui informações adicionais de autor e ISBN
+5. A revista possui informações adicionais de numero edição e ISSN
+6. O jornal possui informações adicionais de data edição e cidade
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Compile e execute
+9. Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)
+10. Exiba as informações (básicas e adicionais) de todos os funcionários
+11. Compile e execute
+12. Crie uma nova classe Biblioteca (nome e localizacao) e uma agregação com publicação
+13. `Crie um método void para exibir publicações na classe Biblioteca que receba uma Action<string> como parâmetro (imprimir)`
+14. `Na classe Program, crie um método void ImprimirPersonalizado para imprimir com background em verde`
+16. `Execute o método ExibirPublicacoes da classe Biblioteca passando o método Console.WriteLine`
+17. `Execute o método ExibirPublicacoes da classe Biblioteca passando o método ImprimirPersonalizado`
+35. `Compile e execute`
 </details>
 
 <details>
@@ -1204,22 +1238,25 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 1. Implemente um programa de cadastro de funcionários de uma hamburgueria (garçon, supervisor e caixa)
 2. Obs.: Faça inicialmente para uma hamburgueria e depois personalize para outro tema (tema do aluno)
 3. Nome, sobrenome e valor hora são informações comuns a todos os funcionários
-4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (array de int)
+4. O garçon possui informação adicional de número das mesas sob sua responsabilidade (colecao de int)
 5. O supervisor possui informações adicional do turno que supervisiona (manha, tarde, noite, madrugada)
-6. O caixa possui informação adicional do número do caixa que trabalha (valor faturamento mes anterior)
-7. Crie um menu com opções para cadastrar os três tipos de funcionário
-8. Crie também um menu para sair
-9. Compile e execute
+6. O caixa possui informação adicional do valor faturamento mes anterior
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)
+9. Crie uma classe (nome: Hamburgueria) para gerenciar os funcionários (agregação)
+10. Compile e execute
 - **`Exercício prático 2`**
-1. Evolua o exercício anterior com os próximos passos
-2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
-3. Exiba o salário base de cada um dos três funcionários
-4. Compile e execute
+1. `Evolua o exercício anterior com os próximos passos`
+2. `Crie um método para exportar os dados dos funcionários`
+3. `Receba no método anterior um delegate de callback para gravar os dados`
+4. `Crie um método compatível com o delegate de callback, que grave os dados em txt (sem cabeçalho)`
+5. `No método Main, execute a exportação informando callback anterior`
+6. `Compile e execute`
 - **`Exercício prático 3`**
 1. `Evolua o exercício anterior com os próximos passos`
-2. `Crie um menu de opção para exibir relatório com todos os dados em console`
-3. `Crie um menu de opção para gravar relatório com todos os dados em arquivo (txt)`
-4. `Use um único método Imprimir para atender os dois menus anteriores. Use delegate`
+2. `Crie um método compatível com o delegate de callback, que grave os dados em txt (com cabeçalho)`
+3. `No método Main, execute a exportação informando callback anterior`
+4. `Compile e execute`
 5. `Compile e execute`
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
