@@ -1257,7 +1257,6 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 2. `Crie um método compatível com o delegate de callback, que grave os dados em txt (com cabeçalho)`
 3. `No método Main, execute a exportação informando callback anterior`
 4. `Compile e execute`
-5. `Compile e execute`
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
@@ -1274,11 +1273,10 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 
 > [!IMPORTANT]
 > *Assuntos cobertos: Eventos*
-> </br> **Leitura do AT**
 
 1. [Eventos - Visão Geral](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/events/)
-2. [Assinar eventos](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/events/how-to-subscribe-to-and-unsubscribe-from-events#to-subscribe-to-events-programmatically)
-3. [Acionar eventos de classe base na classe derivada](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/events/how-to-raise-base-class-events-in-derived-classes#example)
+2. [Evento - Um pequeno exemplo](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/event)
+3. [Assinar eventos](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/events/how-to-subscribe-to-and-unsubscribe-from-events#to-subscribe-to-events-programmatically)
 
 ### Para aprofundar
 - [Design Patterns com exemplos em C# 1 (DotNetTutorials)](https://dotnettutorials.net/course/dot-net-design-patterns/)
@@ -1296,23 +1294,28 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 <summary>Exercício em aula</summary>
 
 1. Implemente um programa de cadastro de publicações de uma biblioteca
-2. Crie um menu com três opções de cadastro (livro, revista e jornal)
-3. Crie também uma opção de menu para sair
-4. Titulo, ano publicação e editora são informações básicas a todas as publicações
-5. Defina a classe base como abstrata
-6. Crie um método abstrato para imprimir informações adicionais
-7. Crie um método que imprima todos as informações básicas de qualquer tipo de publicação e invoke o método abstrato de informações adicionais
-8. O livro possui informações adicionais de autor e ISBN
-9. A revista possui informações adicionais de numero edição e ISSN
-10. O jornal possui informações adicionais de data edição e cidade
-11. Crie as três publicações solicitando leitura dos dados no console 
-12. Implemente o método de imprimir informações adicionais para exibir as informações adicionais de cada tipo de publicação.
+2. Simule o cadastro de três tipos de publicação (livro, revista e jornal)
+3. Titulo, ano publicação e editora são informações básicas a todas as publicações
+4. O livro possui informações adicionais de autor e ISBN
+5. A revista possui informações adicionais de numero edição e ISSN
+6. O jornal possui informações adicionais de data edição e cidade
+7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+8. Compile e execute
+9. Crie métodos para exibir informações básicas e adicionais (use, ou polimorfismo, ou abstração ou herança)
+10. Exiba as informações (básicas e adicionais) de todos os funcionários
+11. Compile e execute
+12. Crie uma nova classe Biblioteca (nome e localizacao) e uma agregação com publicação
 13. Compile e execute
-14. `Crie uma classe Biblioteca para controlar as publicações. Crie um evento para publicação adicionada`
-15. `Acione o evento de publicação adicionada, passando por parametro o resultado do método ToString()`
-16. `Assine o evento e persista os dados recebidos do evento em um arquivo`
-17. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
-18. `Compile e execute`
+14. `1.Crie um delegate personalizado na classe Biblioteca: public delegate void PublicacaoAdicionadaHandler(object sender, Publicacao publicacao);`
+15. `2.Crie um evento com base no tipo delegate anterior: public event PublicacaoAdicionadaHandler PublicacaoAdicionada;`
+16. `3.Execute o evento no método AdicionarPublicacao: PublicacaoAdicionada?.Invoke(this, publicacao);`
+17. `4.Na classe Program, crie o método ImprimirPublicacaoAdicionada(object sender, Publicacao publicacao) para imprimir`
+18. `5.Na classe Program, método Main, assine o evento: biblioteca.PublicacaoAdicionada += ImprimirPublicacaoAdicionada;`
+19. `Compile e execute`
+20. `1.Crie um evento com base no tipo delegate EventHandler: public event EventHandler<Publicacao> PublicacaoAdicionada2;`
+21. `2.Execute o evento no método AdicionarPublicacao: PublicacaoAdicionada2?.Invoke(this, publicacao);`
+22. `3.Na classe Program, método Main, assine o evento: biblioteca.PublicacaoAdicionada2 += ImprimirPublicacaoAdicionada;`
+19. `Compile e execute`
 </details>
 
 <details>
@@ -1329,17 +1332,21 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 8. Crie também um menu para sair
 9. Compile e execute
 - **`Exercício prático 2`**
-1. Evolua o exercício anterior com os próximos passos
-2. Todos os funcionários recebem um salário base mensal. Regra: valor hora * total de horas mes (160)
-3. Exiba o salário base de cada um dos três funcionários
-4. Compile e execute
+1. `Evolua o exercício anterior com os próximos passos`
+2. `Crie uma classe Hamburgueria para controlar os funcionários. Crie um evento para funcionário adicionado`
+3. `Acione o evento de funcionário adicionado, passando por parametro o resultado do método ToString()`
+4. `Assine o evento e persista os dados recebidos do evento em um arquivo`
+5. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
+6. `Use um delegate personalizado`
+7. `Compile e execute`
 - **`Exercício prático 3`**
 1. `Evolua o exercício anterior com os próximos passos`
 2. `Crie uma classe Hamburgueria para controlar os funcionários. Crie um evento para funcionário adicionado`
 3. `Acione o evento de funcionário adicionado, passando por parametro o resultado do método ToString()`
 4. `Assine o evento e persista os dados recebidos do evento em um arquivo`
 5. `Carregue os dados das publicações existente no arquivo na inicialização do programa`
-6. `Compile e execute`
+6. `Use o delegate EventHandler`
+7. `Compile e execute`
 - **`Exercício prático 4`**
 1. Personalize os tipos de funcionários e os cálculos de acordo com o tema da sua loja
 2. Use a criatividade para personalizar o seu cadastro
