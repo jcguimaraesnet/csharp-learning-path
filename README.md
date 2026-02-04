@@ -131,6 +131,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 1. Implemente um programa de caixa registradora para uma loja (tema do aluno)
 2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
 3. Imprima duas opções de de produto da loja (ex: 1 - beef burguer e 2 - fish burguer)
+4. Considere que o produto 1 e 2 tenham valor fixo de R$ 50,00 e R$ 60,00 respectivamente
 4. Leia a opção de produto desejado pelo usuário
 5. Leia a quantidade desejada, calcule e imprima o total do pedido
 6. Compile e execute
