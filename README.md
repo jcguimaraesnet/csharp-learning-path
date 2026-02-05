@@ -132,9 +132,9 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 2. O programa deve calcular o total de um pedido apenas uma vez por execução do programa
 3. Imprima duas opções de de produto da loja (ex: 1 - beef burguer e 2 - fish burguer)
 4. Considere que o produto 1 e 2 tenham valor fixo de R$ 50,00 e R$ 60,00 respectivamente
-4. Leia a opção de produto desejado pelo usuário
-5. Leia a quantidade desejada, calcule e imprima o total do pedido
-6. Compile e execute
+5. Leia a opção de produto desejado pelo usuário
+6. Leia a quantidade desejada, calcule e imprima o total do pedido
+7. Compile e execute
 - **`Exercício prático 2`**
 1. Calcule o IMC de uma pessoa (peso / (altura * altura))
 2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
@@ -1383,3 +1383,4 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 - [Leetcode resources](https://github.com/ashishps1/awesome-leetcode-resources)
 
 - [Interview Q&A](https://github.com/ashishps1/awesome-behavioral-interviews)
+
