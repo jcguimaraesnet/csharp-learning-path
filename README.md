@@ -136,7 +136,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 5. Leia a quantidade desejada, calcule e imprima o total do pedido
 6. Compile e execute
 - **`Exercício prático 2`**
-1. Calcule o IMC de uma pessoa (peso / altura)
+1. Calcule o IMC de uma pessoa (peso / (altura * altura))
 2. Imprima no console as classificações de acordo com a OMS (abaixo do peso, normal, sobrepeso, obesidade)
 3. Compile e execute
 - **`Exercício prático 3`**
@@ -1381,4 +1381,5 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 ## :1st_place_medal: Para preparação e entrevistas
 - [Especificação de projetos desafiadores (por nível de dificuldade)](https://github.com/ashishps1/awesome-coding-projects)
 - [Leetcode resources](https://github.com/ashishps1/awesome-leetcode-resources)
+
 - [Interview Q&A](https://github.com/ashishps1/awesome-behavioral-interviews)
