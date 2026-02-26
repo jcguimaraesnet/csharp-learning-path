@@ -509,7 +509,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 - **`Exercício prático 1`**
 1. Implemente um programa de cadastro de um funcionário de uma loja (tema do aluno)
 2. Apresente um menu com três opções: adicionar funcionário, aumentar e exibir salario, e sair
-3. Opção 1: ler os dados do funcionário: nome, cargo e salário (regra: salário maior que zero)
+3. Opção 1: ler os dados do funcionário: nome, cargo, tipo (gerente e analista) e salário (regra: salário maior que zero)
 4. Opção 2: Aumentar  e exibir o salário dos funcionários (regra → 20% para gerente e 10% para os demais)
 6. Opção 3: Sair do programa
 7. Use os princípios de encapsulamento, definindo a visibilidade adequada para os membros da classe
