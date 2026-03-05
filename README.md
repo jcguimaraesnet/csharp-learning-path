@@ -736,7 +736,7 @@ Se você estiver usando este repositório para seu aprendizado, por favor, dê u
 4. O livro possui informações adicionais de autor e ISBN
 5. A revista possui informações adicionais de numero edição e ISSN
 6. O jornal possui informações adicionais de data edição e cidade
-7. Crie uma colecao com 10 tipos de funcionarios, atribuindo valores fixos e aleatórios
+7. Crie uma colecao com 10 tipos de publicações, atribuindo valores fixos e aleatórios
 8. Compile e execute
 9. Defina a classe base como abstrata
 10. Crie um método abstrato para imprimir informações adicionais
